@@ -1,0 +1,110 @@
+{
+  "seo": {
+    "title": "BREDDY | Custom Wood & Epoxy Resin Creations",
+    "description": "Custom tables, objects and one-of-a-kind creations in solid wood and epoxy resin. Handcrafted projects by BREDDY."
+  },
+  "nav": {
+    "creations": "Creations",
+    "savoirFaire": "Craftsmanship",
+    "processus": "Process",
+    "faq": "FAQ",
+    "quote": "Request a quote"
+  },
+  "hero": {
+    "eyebrow": "Solid wood · Epoxy resin · Custom made",
+    "titleLine1": "The art of wood.",
+    "titleLine2": "Material, reimagined.",
+    "description": "One-of-a-kind pieces imagined, shaped and finished by hand. The natural character of wood meets the freedom of epoxy resin.",
+    "primaryCta": "Discover the creations",
+    "secondaryCta": "Discuss your project",
+    "scroll": "Discover",
+    "imageAlt": "Contemporary handcrafted wood creation"
+  },
+  "intro": {
+    "eyebrow": "The BREDDY approach",
+    "title": "One material. One story. One unique piece.",
+    "text": "At BREDDY, we do not try to make nature perfectly uniform. We work with it. Every grain, knot and resin detail becomes part of a creation that cannot be replicated exactly.",
+    "link": "Our craftsmanship"
+  },
+  "creations": {
+    "eyebrow": "Creations",
+    "title": "Pieces designed to become the centre of the room.",
+    "description": "From signature furniture to decorative objects, every project is developed around your dimensions, your space and your vision."
+  },
+  "craft": {
+    "eyebrow": "Craftsmanship",
+    "title": "Precision meets material.",
+    "description": "Handcraft takes time. Wood selection, preparation, assembly, pouring, sanding and finishing are approached with care at every stage.",
+    "items": [
+      { "title": "Selected wood", "text": "Each piece is chosen for its character, stability and aesthetic potential." },
+      { "title": "Custom design", "text": "Dimensions, shape, species and finish are defined around your project." },
+      { "title": "Epoxy resin", "text": "Resin becomes a design element: clear, tinted or subtly pigmented." },
+      { "title": "Hand finishing", "text": "Sanding and finishing reveal the grain and provide lasting protection." }
+    ]
+  },
+  "process": {
+    "eyebrow": "From first conversation to final piece",
+    "title": "Every project follows its own path.",
+    "items": [
+      { "title": "Your idea", "text": "We discuss your needs, space, dimensions and inspiration." },
+      { "title": "The wood", "text": "We define the species and select the material suited to the project." },
+      { "title": "The design", "text": "Proportions, colours, shapes and details are defined before fabrication." },
+      { "title": "The making", "text": "Wood preparation, assembly, resin pouring, machining and sanding." },
+      { "title": "The finish", "text": "The surface is carefully prepared and protected according to the piece's use." },
+      { "title": "Delivery", "text": "Your creation is carefully prepared to enter its new space." }
+    ]
+  },
+  "statement": {
+    "eyebrow": "Your idea can become a piece",
+    "title": "Imagine it. We give it form.",
+    "cta": "Start a project"
+  },
+  "quote": {
+    "eyebrow": "Custom project",
+    "title": "Let's talk about your project.",
+    "description": "A few details are enough to get started. We can then refine the materials, dimensions and details of your creation together.",
+    "note": "Inspiration photos, sketches or references are welcome. They help us understand your vision."
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "project": "Project type",
+    "dimensions": "Desired dimensions",
+    "wood": "Preferred wood species",
+    "resin": "Resin colour / effect",
+    "budget": "Approximate budget",
+    "message": "Tell us about your project",
+    "submit": "Request my quote",
+    "successTitle": "Thank you for your project.",
+    "successText": "Your request is ready to be processed. In the next project stage, this form will be connected to your preferred delivery solution so every request goes directly to BREDDY.",
+    "projects": [
+      { "title": "Dining table", "value": "table-dining" },
+      { "title": "Coffee table", "value": "coffee-table" },
+      { "title": "Counter / surface", "value": "counter" },
+      { "title": "Decorative object", "value": "decorative" },
+      { "title": "Other project", "value": "other" }
+    ],
+    "budgets": ["Under $500", "$500 – $1,000", "$1,000 – $2,500", "$2,500 – $5,000", "$5,000+", "Not sure yet"]
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Every project starts with a question.",
+    "description": "Clear answers to the questions people often ask before ordering a wood and epoxy resin creation.",
+    "items": [
+      { "question": "What is a wood and epoxy resin creation?", "answer": "It is a piece that combines solid wood with epoxy resin, often used to highlight the natural shape of the wood or create a contrast of colour and transparency." },
+      { "question": "Can a table be completely custom made?", "answer": "Yes. Dimensions, shape, wood species, resin colour and finish can be defined according to the project and the constraints of the space." },
+      { "question": "What wood can be used with epoxy resin?", "answer": "Different species can be suitable. The choice depends on wood stability, moisture content, appearance and the final use of the piece." },
+      { "question": "How much does a wood and resin table cost?", "answer": "Price depends greatly on dimensions, wood species, amount of resin, design complexity and finish. A quote request provides an estimate tailored to the project." },
+      { "question": "How long does it take to make a piece?", "answer": "Timing varies by project, material availability and curing and finishing stages. The schedule is confirmed before fabrication begins." }
+    ]
+  },
+  "footer": {
+    "description": "Handcrafted solid wood and epoxy resin creations, designed for spaces that deserve a unique piece.",
+    "explore": "Explore",
+    "contact": "Contact",
+    "byAppointment": "Workshop by appointment",
+    "rights": "All rights reserved.",
+    "tagline": "Wood · Resin · Design · Craft"
+  }
+}

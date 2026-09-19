@@ -1,0 +1,110 @@
+{
+  "seo": {
+    "title": "BREDDY | Créations en bois & résine époxy sur mesure",
+    "description": "Tables, objets et créations uniques en bois massif et résine époxy. Fabrication artisanale et projets sur mesure par BREDDY."
+  },
+  "nav": {
+    "creations": "Créations",
+    "savoirFaire": "Savoir-faire",
+    "processus": "Processus",
+    "faq": "FAQ",
+    "quote": "Demander un devis"
+  },
+  "hero": {
+    "eyebrow": "Bois massif · Résine époxy · Sur mesure",
+    "titleLine1": "L'art du bois.",
+    "titleLine2": "La matière réinventée.",
+    "description": "Des pièces uniques pensées, façonnées et finies à la main. Le caractère naturel du bois rencontre la liberté de la résine époxy.",
+    "primaryCta": "Découvrir les créations",
+    "secondaryCta": "Parler de votre projet",
+    "scroll": "Découvrir",
+    "imageAlt": "Création artisanale contemporaine en bois"
+  },
+  "intro": {
+    "eyebrow": "L'approche BREDDY",
+    "title": "Une matière. Une histoire. Une pièce unique.",
+    "text": "Chez BREDDY, nous ne cherchons pas à reproduire parfaitement la nature. Nous travaillons avec elle. Chaque veinure, chaque nœud et chaque transparence de résine participe à une création qui ne ressemble à aucune autre.",
+    "link": "Notre savoir-faire"
+  },
+  "creations": {
+    "eyebrow": "Créations",
+    "title": "Des pièces conçues pour devenir le centre de l'espace.",
+    "description": "Du mobilier signature aux objets décoratifs, chaque projet est développé selon vos dimensions, votre intérieur et votre vision."
+  },
+  "craft": {
+    "eyebrow": "Savoir-faire",
+    "title": "La précision rencontre la matière.",
+    "description": "Le travail artisanal demande du temps. Sélection du bois, préparation, assemblage, coulée, ponçage et finition sont réalisés avec attention à chaque étape.",
+    "items": [
+      { "title": "Bois sélectionné", "text": "Chaque pièce de bois est choisie pour son caractère, sa stabilité et son potentiel esthétique." },
+      { "title": "Conception sur mesure", "text": "Dimensions, forme, essence et finition sont définies autour de votre projet." },
+      { "title": "Résine époxy", "text": "La résine devient un élément de design : transparente, teintée ou subtilement pigmentée." },
+      { "title": "Finition artisanale", "text": "Le ponçage et la finition révèlent le grain et protègent durablement la pièce." }
+    ]
+  },
+  "process": {
+    "eyebrow": "Du premier échange à la pièce finale",
+    "title": "Chaque projet suit son propre chemin.",
+    "items": [
+      { "title": "Votre idée", "text": "Nous échangeons sur votre besoin, votre espace, vos dimensions et votre inspiration." },
+      { "title": "Le bois", "text": "Nous définissons l'essence et sélectionnons la matière adaptée au projet." },
+      { "title": "La conception", "text": "Proportions, couleurs, formes et détails sont précisés avant la fabrication." },
+      { "title": "La fabrication", "text": "Préparation du bois, assemblage, coulée de résine, usinage et ponçage." },
+      { "title": "La finition", "text": "La surface est soigneusement préparée et protégée selon l'usage de la pièce." },
+      { "title": "La livraison", "text": "Votre création est préparée avec soin pour rejoindre son nouvel espace." }
+    ]
+  },
+  "statement": {
+    "eyebrow": "Votre idée peut devenir une pièce",
+    "title": "Imaginez-la. Nous lui donnons forme.",
+    "cta": "Commencer un projet"
+  },
+  "quote": {
+    "eyebrow": "Projet sur mesure",
+    "title": "Parlons de votre projet.",
+    "description": "Quelques informations suffisent pour commencer. Nous pourrons ensuite préciser ensemble les matériaux, les dimensions et les détails de votre création.",
+    "note": "Les images d'inspiration, croquis ou références sont les bienvenus. Ils nous aident à comprendre votre intention."
+  },
+  "form": {
+    "name": "Nom",
+    "email": "Courriel",
+    "phone": "Téléphone",
+    "project": "Type de projet",
+    "dimensions": "Dimensions souhaitées",
+    "wood": "Essence de bois souhaitée",
+    "resin": "Couleur / effet de résine",
+    "budget": "Budget approximatif",
+    "message": "Parlez-nous de votre projet",
+    "submit": "Demander mon devis",
+    "successTitle": "Merci pour votre projet.",
+    "successText": "Votre demande est prête à être traitée. Dans la prochaine étape du projet, ce formulaire sera connecté à votre solution d'envoi afin que chaque demande arrive directement à BREDDY.",
+    "projects": [
+      { "title": "Table à manger", "value": "table-dining" },
+      { "title": "Table basse", "value": "coffee-table" },
+      { "title": "Comptoir / surface", "value": "counter" },
+      { "title": "Objet décoratif", "value": "decorative" },
+      { "title": "Autre projet", "value": "other" }
+    ],
+    "budgets": ["Moins de 500 $", "500 $ – 1 000 $", "1 000 $ – 2 500 $", "2 500 $ – 5 000 $", "5 000 $ et plus", "Je ne sais pas encore"]
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Tout commence par une question.",
+    "description": "Des réponses claires aux questions que l'on se pose avant de commander une création en bois et résine époxy.",
+    "items": [
+      { "question": "Qu'est-ce qu'une création en bois et résine époxy?", "answer": "Il s'agit d'une pièce qui associe du bois massif à une résine époxy, souvent utilisée pour mettre en valeur les formes naturelles du bois ou créer un contraste de couleur et de transparence." },
+      { "question": "Peut-on créer une table entièrement sur mesure?", "answer": "Oui. Les dimensions, la forme, l'essence de bois, la couleur de la résine et la finition peuvent être définies selon le projet et les contraintes de l'espace." },
+      { "question": "Quel bois peut être utilisé avec la résine époxy?", "answer": "Différentes essences peuvent convenir. Le choix dépend notamment de la stabilité du bois, de son taux d'humidité, de son aspect et de l'usage final de la pièce." },
+      { "question": "Combien coûte une table en bois et résine?", "answer": "Le prix dépend fortement des dimensions, de l'essence de bois, de la quantité de résine, de la complexité du design et de la finition. Une demande de devis permet d'obtenir une estimation adaptée au projet." },
+      { "question": "Combien de temps faut-il pour fabriquer une pièce?", "answer": "Le délai varie selon le projet, les matériaux disponibles et les étapes de séchage et de finition. Le calendrier est confirmé avant le lancement de la fabrication." }
+    ]
+  },
+  "footer": {
+    "description": "Créations artisanales en bois massif et résine époxy, pensées pour les espaces qui méritent une pièce unique.",
+    "explore": "Explorer",
+    "contact": "Contact",
+    "byAppointment": "Atelier sur rendez-vous",
+    "rights": "Tous droits réservés.",
+    "tagline": "Bois · Résine · Design · Artisanat"
+  }
+}
