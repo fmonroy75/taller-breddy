@@ -6,29 +6,24 @@ export default <Partial<Config>>{
     './layouts/**/*.vue',
     './pages/**/*.vue',
     './app.vue',
-    './plugins/**/*.{js,ts}'
+    './composables/**/*.{js,ts}'
   ],
-
   theme: {
     extend: {
       colors: {
         breddy: {
-          ink: '#171614',
-          charcoal: '#24211D',
-          wood: '#6F604D',
-          sand: '#E9E1D5',
-          cream: '#F6F3EE',
-          mist: '#D9D3CA'
+          ink: '#171717',
+          charcoal: '#171717',
+          dark: '#242424',
+          ivory: '#F7F5F1',
+          stone: '#C9C2B8',
+          bronze: '#9B7454',
+          surface: '#F7F5F1'
         }
       },
-
       fontFamily: {
-        display: ['Cormorant Garamond', 'Georgia', 'serif'],
-        sans: ['Inter', 'Arial', 'sans-serif']
-      },
-
-      boxShadow: {
-        soft: '0 20px 60px rgba(23, 22, 20, 0.10)'
+        sans: ['Inter', 'Arial', 'sans-serif'],
+        display: ['Montserrat', 'Arial', 'sans-serif']
       }
     }
   }

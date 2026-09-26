@@ -1,110 +1,266 @@
 {
   "seo": {
-    "title": "BREDDY | Créations en bois & résine époxy sur mesure",
-    "description": "Tables, objets et créations uniques en bois massif et résine époxy. Fabrication artisanale et projets sur mesure par BREDDY."
+    "home": {
+      "title": "L’atelier BREDDY Inc. | Conception, fabrication et projets sur mesure",
+      "description": "À Granby, L’atelier BREDDY Inc. réunit conception et impression 3D, soudure et métal, travail du bois et époxy pour réaliser des projets sur mesure."
+    },
+    "wood": {
+      "title": "Bois & Époxy | L’atelier BREDDY Inc.",
+      "description": "Tables, planches, jeux, accessoires, créations personnalisées et restaurations en bois et époxy à Granby."
+    },
+    "metal": {
+      "title": "Soudure & Métal | L’atelier BREDDY Inc.",
+      "description": "Fabrication, modification, réparation et assemblage de pièces métalliques en acier, aluminium et acier inoxydable à Granby."
+    },
+    "threed": {
+      "title": "Conception & Impression 3D | L’atelier BREDDY Inc.",
+      "description": "Conception 3D, prototypage, pièces fonctionnelles, pièces de remplacement et petites séries à Granby."
+    },
+    "contact": {
+      "title": "Contact | L’atelier BREDDY Inc.",
+      "description": "Parlez-nous de votre projet. L’atelier BREDDY Inc. est situé à Granby, au Québec."
+    }
   },
   "nav": {
-    "creations": "Créations",
-    "savoirFaire": "Savoir-faire",
-    "processus": "Processus",
-    "faq": "FAQ",
-    "quote": "Demander un devis"
+    "home": "Accueil",
+    "wood": "Bois & Époxy",
+    "metal": "Soudure & Métal",
+    "threed": "Conception 3D",
+    "contact": "Contact",
+    "quote": "Demander une soumission"
   },
-  "hero": {
-    "eyebrow": "Bois massif · Résine époxy · Sur mesure",
-    "titleLine1": "L'art du bois.",
-    "titleLine2": "La matière réinventée.",
-    "description": "Des pièces uniques pensées, façonnées et finies à la main. Le caractère naturel du bois rencontre la liberté de la résine époxy.",
-    "primaryCta": "Découvrir les créations",
-    "secondaryCta": "Parler de votre projet",
-    "scroll": "Découvrir",
-    "imageAlt": "Création artisanale contemporaine en bois"
+  "common": {
+    "discover": "Découvrir",
+    "request": "Parler de votre projet"
   },
-  "intro": {
-    "eyebrow": "L'approche BREDDY",
-    "title": "Une matière. Une histoire. Une pièce unique.",
-    "text": "Chez BREDDY, nous ne cherchons pas à reproduire parfaitement la nature. Nous travaillons avec elle. Chaque veinure, chaque nœud et chaque transparence de résine participe à une création qui ne ressemble à aucune autre.",
-    "link": "Notre savoir-faire"
+  "home": {
+    "hero": {
+      "eyebrow": "Conception · fabrication · sur mesure",
+      "title": "De l’idée à la réalisation.",
+      "description": "L’atelier BREDDY Inc. réunit plusieurs savoir-faire afin de donner vie à des projets sur mesure, de la conception jusqu’à la fabrication.",
+      "imageAlt": "Création en bois et résine époxy réalisée par L’atelier BREDDY Inc."
+    },
+    "history": {
+      "eyebrow": "Notre histoire",
+      "title": "Une passion devenue un atelier.",
+      "p1": "Créé en avril 2024 à l’initiative d’Eric Lapierre, d’abord comme un passe-temps, L’atelier BREDDY Inc. a grandi autour d’une passion pour la création et la fabrication.",
+      "p2": "En juillet 2025, cette activité devient officiellement une entreprise. Aujourd’hui, Eric Lapierre et Annie Paré, copropriétaires, font évoluer l’atelier à Granby avec une approche fondée sur le sur mesure et la polyvalence.",
+      "p3": "Conception et impression 3D, soudure et métal, travail du bois et époxy : plusieurs expertises peuvent être réunies dans un même projet afin de garder une vision cohérente du besoin jusqu’à la réalisation finale."
+    },
+    "services": {
+      "eyebrow": "Plusieurs savoir-faire",
+      "title": "Un même atelier pour des projets qui ne rentrent pas dans une case.",
+      "text": "Une idée peut commencer par un croquis, devenir un modèle 3D, nécessiter une pièce métallique et se terminer avec du bois ou de l’époxy. Nous adaptons la méthode au projet.",
+      "conception3d": {
+        "number": "01",
+        "title": "Conception & Impression 3D",
+        "text": "Transformer une idée en modèle, prototype, pièce fonctionnelle, pièce de remplacement ou petite série."
+      },
+      "soudure": {
+        "number": "02",
+        "title": "Soudure & Métal",
+        "text": "Fabriquer, modifier, réparer et assembler des pièces en acier, aluminium et acier inoxydable."
+      },
+      "bois": {
+        "number": "03",
+        "title": "Bois & Époxy",
+        "text": "Créer des tables, planches, jeux, accessoires et projets personnalisés autour du caractère naturel du bois."
+      }
+    },
+    "gallery": {
+      "eyebrow": "Quelques réalisations",
+      "title": "Des pièces qui montrent la diversité de l’atelier.",
+      "text": "Une sélection de réalisations photographiées. La galerie s’enrichira au fil des projets.",
+      "tableAlt": "Table en bois et résine époxy",
+      "tableTitle": "Table sur mesure",
+      "tableText": "Bois & époxy",
+      "chessAlt": "Jeu d’échecs en bois et résine époxy",
+      "chessTitle": "Jeu d’échecs",
+      "chessText": "Pièce personnalisée",
+      "detailAlt": "Détail de bois et résine époxy",
+      "detailTitle": "Matière & profondeur",
+      "detailText": "Détail de finition"
+    },
+    "cta": {
+      "eyebrow": "Votre projet",
+      "title": "Une idée à concrétiser, une pièce difficile à trouver ou un projet complètement personnalisé?",
+      "text": "Vous n’avez pas besoin d’avoir tous les détails en main. Décrivez-nous simplement votre idée ou votre besoin et nous pourrons discuter des différentes possibilités."
+    }
   },
-  "creations": {
-    "eyebrow": "Créations",
-    "title": "Des pièces conçues pour devenir le centre de l'espace.",
-    "description": "Du mobilier signature aux objets décoratifs, chaque projet est développé selon vos dimensions, votre intérieur et votre vision."
+  "wood": {
+    "hero": {
+      "eyebrow": "Bois & Époxy",
+      "title": "Quand le bois rencontre l’époxy.",
+      "description": "Chaque morceau de bois possède ses propres couleurs, veinures et caractère. L’époxy ajoute une autre dimension : couleur, transparence, profondeur et possibilités de personnalisation.",
+      "imageAlt": "Création en bois et résine époxy"
+    },
+    "intro": {
+      "eyebrow": "Des créations faites autrement",
+      "title": "Des réalisations pensées autour de la matière.",
+      "text": "Tables, planches, jeux, accessoires et projets personnalisés font partie des possibilités. Chaque réalisation peut être adaptée selon les dimensions, le choix du bois, les couleurs et le style recherché.",
+      "items": [
+        { "title": "Tables", "text": "Des pièces conçues selon les dimensions et l’usage recherchés." },
+        { "title": "Planches", "text": "Des objets fonctionnels où le grain du bois reste au premier plan." },
+        { "title": "Jeux", "text": "Des créations personnalisées qui associent utilité et caractère." },
+        { "title": "Accessoires", "text": "De petites pièces pensées autour d’une idée, d’un usage ou d’un univers." },
+        { "title": "Restaurations", "text": "Préparation, sablage et finition pour transformer une réalisation existante." }
+      ]
+    },
+    "gallery": {
+      "tableAlt": "Table en bois et résine époxy",
+      "tableTitle": "Tables sur mesure",
+      "tableText": "Des pièces conçues selon les dimensions, le bois, les couleurs et le style recherchés.",
+
+      "chessAlt": "Jeu d’échecs artisanal en bois et résine époxy",
+      "chessTitle": "Jeux et objets personnalisés",
+      "chessText": "Le bois et l’époxy permettent de créer des pièces uniques, pensées pour leur caractère autant que pour leur utilisation.",
+
+      "chessDetailAlt": "Détail d’un jeu d’échecs en bois et résine époxy",
+      "chessDetailTitle": "Le détail fait la différence",
+      "chessDetailText": "Les veinures du bois, les couleurs et la profondeur de l’époxy donnent à chaque réalisation une identité propre.",
+
+      "accessoriesAlt": "Accessoire personnalisé en bois",
+      "accessoriesTitle": "Accessoires",
+      "accessoriesText": "Des créations personnalisées qui combinent l’aspect naturel du bois et les possibilités de l’époxy.",
+
+      "cuttingBoardAlt": "Planche à découper en bois",
+      "cuttingBoardTitle": "Planches à découper",
+      "cuttingBoardText": "Des pièces conçues pour mettre en valeur le bois tout en répondant aux besoins du quotidien.",
+
+      "jewelryAlt": "Bijou artisanal en bois et résine",
+      "jewelryTitle": "Bijoux",
+      "jewelryText": "De petites créations personnalisées où le bois et l’époxy permettent de travailler les couleurs, les formes et les détails."
+    },
+    "material": {
+      "eyebrow": "La matière au centre",
+      "title": "Le bois peut rester naturel. L’époxy peut devenir le design.",
+      "p1": "L’époxy n’a pas besoin d’être présente dans chaque projet. Le bois peut également être travaillé seul afin de mettre en valeur son aspect naturel et créer des réalisations aussi pratiques que décoratives.",
+      "p2": "Lorsqu’elle est utilisée, la résine peut être transparente, colorée, opaque ou translucide. Elle peut remplir certaines parties du bois, créer un contraste ou devenir l’élément principal du design.",
+      "p3": "Selon la réalisation, le bois et l’époxy peuvent aussi être combinés à du métal ou à des pièces imprimées en 3D lorsque le projet le demande."
+    },
+    "cta": {
+      "eyebrow": "Projet sur mesure",
+      "title": "Vous avez une combinaison de bois, une couleur ou un effet en tête?",
+      "description": "Présentez-nous votre idée et voyons ensemble comment lui donner forme."
+    }
   },
-  "craft": {
-    "eyebrow": "Savoir-faire",
-    "title": "La précision rencontre la matière.",
-    "description": "Le travail artisanal demande du temps. Sélection du bois, préparation, assemblage, coulée, ponçage et finition sont réalisés avec attention à chaque étape.",
-    "items": [
-      { "title": "Bois sélectionné", "text": "Chaque pièce de bois est choisie pour son caractère, sa stabilité et son potentiel esthétique." },
-      { "title": "Conception sur mesure", "text": "Dimensions, forme, essence et finition sont définies autour de votre projet." },
-      { "title": "Résine époxy", "text": "La résine devient un élément de design : transparente, teintée ou subtilement pigmentée." },
-      { "title": "Finition artisanale", "text": "Le ponçage et la finition révèlent le grain et protègent durablement la pièce." }
-    ]
+  "metal": {
+    "hero": {
+      "eyebrow": "Soudure & Métal",
+      "title": "Le métal, fabriqué selon le besoin.",
+      "description": "Créer une nouvelle pièce, modifier quelque chose qui existe déjà, réparer un assemblage ou fabriquer une solution qui ne se trouve pas dans le commerce.",
+      "imageAlt": "Visuel graphique représentant la conception de pièces métalliques"
+    },
+    "intro": {
+      "eyebrow": "Fabrication métallique",
+      "title": "Une approche adaptée au projet.",
+      "text": "L’atelier BREDDY Inc. réalise différents travaux de fabrication métallique. La soudure peut être utilisée pour une nouvelle fabrication, une modification ou une réparation.",
+      "services": [
+        { "title": "Soudure", "text": "Acier, aluminium et acier inoxydable pour des travaux de fabrication, modification et réparation." },
+        { "title": "Fabrication sur mesure", "text": "Supports, structures, assemblages et différentes pièces selon les dimensions et l’utilisation recherchées." },
+        { "title": "Modification", "text": "Couper, ajuster, renforcer ou transformer une pièce existante lorsque le projet le permet." },
+        { "title": "Découpe manuelle au plasma", "text": "Pour certains travaux, la découpe au plasma peut préparer les pièces avant l’ajustement, l’assemblage et la soudure." },
+        { "title": "Réparation", "text": "Chaque situation est évaluée selon le matériau, l’état de la pièce et son utilisation afin de déterminer les possibilités." }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Galerie",
+      "title": "Des réalisations à documenter.",
+      "text": "La structure de la galerie est prête. Les photos de soudure et de fabrication métallique seront intégrées dès qu’elles seront disponibles.",
+      "placeholderAlt": "Emplacement réservé à une photo de soudure ou de fabrication métallique"
+    },
+    "combination": {
+      "eyebrow": "Plusieurs matériaux",
+      "title": "Le métal peut devenir une partie d’un projet plus complet.",
+      "text": "Selon le projet, une fabrication métallique peut être combinée à des éléments en bois, à des pièces imprimées en 3D ou à d’autres méthodes disponibles à l’atelier."
+    },
+    "cta": {
+      "eyebrow": "Projet métallique",
+      "title": "Un projet métallique en tête? Expliquez-nous simplement le besoin."
+    }
   },
-  "process": {
-    "eyebrow": "Du premier échange à la pièce finale",
-    "title": "Chaque projet suit son propre chemin.",
-    "items": [
-      { "title": "Votre idée", "text": "Nous échangeons sur votre besoin, votre espace, vos dimensions et votre inspiration." },
-      { "title": "Le bois", "text": "Nous définissons l'essence et sélectionnons la matière adaptée au projet." },
-      { "title": "La conception", "text": "Proportions, couleurs, formes et détails sont précisés avant la fabrication." },
-      { "title": "La fabrication", "text": "Préparation du bois, assemblage, coulée de résine, usinage et ponçage." },
-      { "title": "La finition", "text": "La surface est soigneusement préparée et protégée selon l'usage de la pièce." },
-      { "title": "La livraison", "text": "Votre création est préparée avec soin pour rejoindre son nouvel espace." }
-    ]
+  "threed": {
+    "hero": {
+      "eyebrow": "Conception & Impression 3D",
+      "title": "Une idée peut commencer par quelques lignes.",
+      "description": "Une photo, un croquis, une pièce existante ou simplement une explication peuvent suffire pour commencer. La conception transforme cette première idée en quelque chose de concret.",
+      "imageAlt": "Visuel graphique représentant une conception technique en 3D"
+    },
+    "intro": {
+      "eyebrow": "De l’idée à la pièce",
+      "title": "Concevoir, tester, ajuster, fabriquer.",
+      "text": "La conception 3D permet de travailler les formes, les dimensions et les différents éléments du projet avant même de fabriquer la première pièce.",
+      "process": [
+        { "title": "Comprendre le besoin", "text": "Nous regardons l’utilisation, les contraintes et le résultat recherché." },
+        { "title": "Donner forme à l’idée", "text": "La modélisation permet de travailler les formes, les dimensions et les assemblages avant fabrication." },
+        { "title": "Tester et ajuster", "text": "Un prototype peut être fabriqué pour vérifier les dimensions, les ajustements ou le fonctionnement." },
+        { "title": "Passer à la fabrication", "text": "L’impression 3D peut produire directement une pièce ou servir de point de départ à un projet combinant plusieurs techniques." }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Galerie",
+      "title": "Conception, prototype et résultat final.",
+      "text": "La structure de la galerie est prête. Les captures de conception, prototypes et pièces imprimées seront ajoutés ici au fur et à mesure.",
+      "placeholderAlt": "Emplacement réservé à une photo de conception ou d’impression 3D"
+    },
+    "printing": {
+      "eyebrow": "Impression 3D au-delà du prototype",
+      "title": "Des pièces utiles, pas seulement des essais.",
+      "p1": "L’impression 3D peut servir à fabriquer des pièces fonctionnelles, supports, adaptateurs, boîtiers, accessoires, pièces de remplacement, créations personnalisées et petites séries.",
+      "p2": "Nous travaillons notamment avec le PLA, le PETG, l’ASA ainsi que le Nylon (fil de carbone). Le matériau est choisi selon l’utilisation de la pièce, son environnement et les caractéristiques recherchées."
+    },
+    "cta": {
+      "eyebrow": "Votre idée",
+      "title": "Vous avez la pièce ou l’idée? Présentez-nous votre projet."
+    }
   },
-  "statement": {
-    "eyebrow": "Votre idée peut devenir une pièce",
-    "title": "Imaginez-la. Nous lui donnons forme.",
-    "cta": "Commencer un projet"
-  },
-  "quote": {
-    "eyebrow": "Projet sur mesure",
-    "title": "Parlons de votre projet.",
-    "description": "Quelques informations suffisent pour commencer. Nous pourrons ensuite préciser ensemble les matériaux, les dimensions et les détails de votre création.",
-    "note": "Les images d'inspiration, croquis ou références sont les bienvenus. Ils nous aident à comprendre votre intention."
-  },
-  "form": {
-    "name": "Nom",
-    "email": "Courriel",
-    "phone": "Téléphone",
-    "project": "Type de projet",
-    "dimensions": "Dimensions souhaitées",
-    "wood": "Essence de bois souhaitée",
-    "resin": "Couleur / effet de résine",
-    "budget": "Budget approximatif",
-    "message": "Parlez-nous de votre projet",
-    "submit": "Demander mon devis",
-    "successTitle": "Merci pour votre projet.",
-    "successText": "Votre demande est prête à être traitée. Dans la prochaine étape du projet, ce formulaire sera connecté à votre solution d'envoi afin que chaque demande arrive directement à BREDDY.",
-    "projects": [
-      { "title": "Table à manger", "value": "table-dining" },
-      { "title": "Table basse", "value": "coffee-table" },
-      { "title": "Comptoir / surface", "value": "counter" },
-      { "title": "Objet décoratif", "value": "decorative" },
-      { "title": "Autre projet", "value": "other" }
-    ],
-    "budgets": ["Moins de 500 $", "500 $ – 1 000 $", "1 000 $ – 2 500 $", "2 500 $ – 5 000 $", "5 000 $ et plus", "Je ne sais pas encore"]
-  },
-  "faq": {
-    "eyebrow": "Questions fréquentes",
-    "title": "Tout commence par une question.",
-    "description": "Des réponses claires aux questions que l'on se pose avant de commander une création en bois et résine époxy.",
-    "items": [
-      { "question": "Qu'est-ce qu'une création en bois et résine époxy?", "answer": "Il s'agit d'une pièce qui associe du bois massif à une résine époxy, souvent utilisée pour mettre en valeur les formes naturelles du bois ou créer un contraste de couleur et de transparence." },
-      { "question": "Peut-on créer une table entièrement sur mesure?", "answer": "Oui. Les dimensions, la forme, l'essence de bois, la couleur de la résine et la finition peuvent être définies selon le projet et les contraintes de l'espace." },
-      { "question": "Quel bois peut être utilisé avec la résine époxy?", "answer": "Différentes essences peuvent convenir. Le choix dépend notamment de la stabilité du bois, de son taux d'humidité, de son aspect et de l'usage final de la pièce." },
-      { "question": "Combien coûte une table en bois et résine?", "answer": "Le prix dépend fortement des dimensions, de l'essence de bois, de la quantité de résine, de la complexité du design et de la finition. Une demande de devis permet d'obtenir une estimation adaptée au projet." },
-      { "question": "Combien de temps faut-il pour fabriquer une pièce?", "answer": "Le délai varie selon le projet, les matériaux disponibles et les étapes de séchage et de finition. Le calendrier est confirmé avant le lancement de la fabrication." }
-    ]
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Parlons de votre projet.",
+      "description": "Vous avez une idée, une pièce à reproduire, quelque chose à réparer ou un projet complètement personnalisé? Décrivez-nous simplement votre besoin.",
+      "imageAlt": "Création en bois réalisée par L’atelier BREDDY Inc."
+    },
+    "info": {
+      "eyebrow": "L’atelier BREDDY Inc.",
+      "title": "Granby, Québec.",
+      "locationLabel": "Localisation",
+      "emailLabel": "Courriel",
+      "phoneLabel": "Téléphone",
+      "hoursLabel": "Heures",
+      "hours": "Lundi au vendredi · 9 h à 17 h",
+      "socialTitle": "Nous retrouver sur les réseaux sociaux",
+      "socialPending": "Les liens exacts Instagram et Facebook seront ajoutés dès leur confirmation."
+    },
+    "form": {
+      "eyebrow": "Demander une soumission",
+      "title": "Quelques informations suffisent pour commencer.",
+      "description": "Vous n’avez pas besoin d’avoir tous les détails en main. Nous pourrons préciser ensemble les différentes possibilités.",
+      "name": "Nom",
+      "contact": "Courriel ou téléphone",
+      "project": "Type de projet",
+      "projectPlaceholder": "Choisir une catégorie",
+      "project3d": "Conception & impression 3D",
+      "projectMetal": "Soudure & métal",
+      "projectWood": "Bois & époxy",
+      "projectOther": "Autre projet",
+      "message": "Parlez-nous de votre projet",
+      "note": "Photos, croquis ou références peuvent être transmis par courriel avec votre demande.",
+      "submit": "Préparer ma demande",
+      "afterSubmit": "Votre demande de courriel a été préparée. Si votre logiciel de messagerie ne s’ouvre pas, écrivez-nous directement à breddy.atelier24{'@'}gmail.com."
+    },
+    "project": {
+      "eyebrow": "Du premier échange à la réalisation",
+      "title": "Une idée n’a pas besoin d’être complètement définie pour commencer.",
+      "text": "Une photo, un croquis, une pièce existante ou une simple description peuvent suffire. Nous pouvons ensuite regarder ensemble les options possibles pour votre projet."
+    }
   },
   "footer": {
-    "description": "Créations artisanales en bois massif et résine époxy, pensées pour les espaces qui méritent une pièce unique.",
+    "description": "Conception et fabrication sur mesure à Granby : impression 3D, soudure et métal, travail du bois et époxy.",
     "explore": "Explorer",
     "contact": "Contact",
-    "byAppointment": "Atelier sur rendez-vous",
+    "hours": "Lun. – Ven. · 9 h – 17 h",
     "rights": "Tous droits réservés.",
-    "tagline": "Bois · Résine · Design · Artisanat"
+    "tagline": "Élégant · Moderne · Artisanal · Technique · Sur mesure"
   }
 }

@@ -1,110 +1,265 @@
 {
   "seo": {
-    "title": "BREDDY | Custom Wood & Epoxy Resin Creations",
-    "description": "Custom tables, objects and one-of-a-kind creations in solid wood and epoxy resin. Handcrafted projects by BREDDY."
+    "home": {
+      "title": "L’atelier BREDDY Inc. | Custom design, fabrication and projects",
+      "description": "In Granby, L’atelier BREDDY Inc. brings together 3D design and printing, welding and metalwork, woodworking and epoxy for custom projects."
+    },
+    "wood": {
+      "title": "Wood & Epoxy | L’atelier BREDDY Inc.",
+      "description": "Custom tables, boards, games, accessories, personalized creations and restorations in wood and epoxy in Granby."
+    },
+    "metal": {
+      "title": "Welding & Metal | L’atelier BREDDY Inc.",
+      "description": "Custom fabrication, modification, repair and assembly of steel, aluminum and stainless-steel parts in Granby."
+    },
+    "threed": {
+      "title": "3D Design & Printing | L’atelier BREDDY Inc.",
+      "description": "3D design, prototyping, functional parts, replacement parts and small production runs in Granby."
+    },
+    "contact": {
+      "title": "Contact | L’atelier BREDDY Inc.",
+      "description": "Tell us about your project. L’atelier BREDDY Inc. is located in Granby, Quebec."
+    }
   },
   "nav": {
-    "creations": "Creations",
-    "savoirFaire": "Craftsmanship",
-    "processus": "Process",
-    "faq": "FAQ",
+    "home": "Home",
+    "wood": "Wood & Epoxy",
+    "metal": "Welding & Metal",
+    "threed": "3D Design",
+    "contact": "Contact",
     "quote": "Request a quote"
   },
-  "hero": {
-    "eyebrow": "Solid wood · Epoxy resin · Custom made",
-    "titleLine1": "The art of wood.",
-    "titleLine2": "Material, reimagined.",
-    "description": "One-of-a-kind pieces imagined, shaped and finished by hand. The natural character of wood meets the freedom of epoxy resin.",
-    "primaryCta": "Discover the creations",
-    "secondaryCta": "Discuss your project",
-    "scroll": "Discover",
-    "imageAlt": "Contemporary handcrafted wood creation"
+  "common": {
+    "discover": "Discover",
+    "request": "Discuss your project"
   },
-  "intro": {
-    "eyebrow": "The BREDDY approach",
-    "title": "One material. One story. One unique piece.",
-    "text": "At BREDDY, we do not try to make nature perfectly uniform. We work with it. Every grain, knot and resin detail becomes part of a creation that cannot be replicated exactly.",
-    "link": "Our craftsmanship"
+  "home": {
+    "hero": {
+      "eyebrow": "Design · fabrication · custom",
+      "title": "From idea to realization.",
+      "description": "L’atelier BREDDY Inc. brings together several areas of expertise to bring custom projects to life, from design through fabrication.",
+      "imageAlt": "Wood and epoxy resin creation by L’atelier BREDDY Inc."
+    },
+    "history": {
+      "eyebrow": "Our story",
+      "title": "A passion that became a workshop.",
+      "p1": "Created in April 2024 by Eric Lapierre, initially as a hobby, L’atelier BREDDY Inc. grew around a passion for creating and making.",
+      "p2": "In July 2025, the activity officially became a business. Today, Eric Lapierre and Annie Paré, co-owners, continue to develop the workshop in Granby with a focus on custom work and versatility.",
+      "p3": "3D design and printing, welding and metalwork, woodworking and epoxy can be brought together within the same project to keep a coherent view of the need through to the final realization."
+    },
+    "services": {
+      "eyebrow": "Several areas of expertise",
+      "title": "One workshop for projects that do not fit in a single box.",
+      "text": "An idea can start as a sketch, become a 3D model, require a metal component and be completed with wood or epoxy. We adapt the method to the project.",
+      "conception3d": {
+        "number": "01",
+        "title": "3D Design & Printing",
+        "text": "Turn an idea into a model, prototype, functional part, replacement part or small production run."
+      },
+      "soudure": {
+        "number": "02",
+        "title": "Welding & Metal",
+        "text": "Fabricate, modify, repair and assemble parts in steel, aluminum and stainless steel."
+      },
+      "bois": {
+        "number": "03",
+        "title": "Wood & Epoxy",
+        "text": "Create tables, boards, games, accessories and custom projects around the natural character of wood."
+      }
+    },
+    "gallery": {
+      "eyebrow": "Selected work",
+      "title": "Pieces that show the workshop’s range.",
+      "text": "A selection of photographed creations. The gallery will grow with future projects.",
+      "tableAlt": "Wood and epoxy resin table",
+      "tableTitle": "Custom table",
+      "tableText": "Wood & epoxy",
+      "chessAlt": "Wood and epoxy chess set",
+      "chessTitle": "Chess set",
+      "chessText": "Custom piece",
+      "detailAlt": "Close-up of wood and epoxy resin",
+      "detailTitle": "Material & depth",
+      "detailText": "Finishing detail"
+    },
+    "cta": {
+      "eyebrow": "Your project",
+      "title": "An idea to bring to life, a hard-to-find part or a completely custom project?",
+      "text": "You do not need to have every detail figured out. Simply describe your idea or need and we can discuss the possibilities."
+    }
   },
-  "creations": {
-    "eyebrow": "Creations",
-    "title": "Pieces designed to become the centre of the room.",
-    "description": "From signature furniture to decorative objects, every project is developed around your dimensions, your space and your vision."
+  "wood": {
+    "hero": {
+      "eyebrow": "Wood & Epoxy",
+      "title": "Where wood meets epoxy.",
+      "description": "Every piece of wood has its own colours, grain and character. Epoxy adds another dimension: colour, transparency, depth and personalization.",
+      "imageAlt": "Wood and epoxy resin creation"
+    },
+    "intro": {
+      "eyebrow": "Creations made differently",
+      "title": "Projects shaped around the material.",
+      "text": "Tables, boards, games, accessories and custom projects are among the possibilities. Each piece can be adapted to dimensions, wood choice, colours and desired style.",
+      "items": [
+        { "title": "Tables", "text": "Pieces designed around the desired dimensions and use." },
+        { "title": "Boards", "text": "Functional objects where the grain of the wood remains central." },
+        { "title": "Games", "text": "Custom creations combining usefulness and character." },
+        { "title": "Accessories", "text": "Small pieces built around an idea, a use or a visual identity." },
+        { "title": "Restorations", "text": "Preparation, sanding and finishing to transform an existing piece." }
+      ]
+    },
+     "gallery": {
+      "tableAlt": "Wood and epoxy resin table",
+      "tableTitle": "Custom tables",
+      "tableText": "Pieces designed around the desired dimensions, wood, colours and style.",
+
+      "chessAlt": "Handcrafted wood and epoxy resin chess set",
+      "chessTitle": "Custom games and objects",
+      "chessText": "Wood and epoxy make it possible to create unique pieces designed for both character and function.",
+
+      "chessDetailAlt": "Detail of a wood and epoxy resin chess set",
+      "chessDetailTitle": "Details make the difference",
+      "chessDetailText": "The wood grain, colours and depth of the epoxy give each creation its own identity.",
+
+      "accessoriesAlt": "Custom wooden accessory",
+      "accessoriesTitle": "Accessories",
+      "accessoriesText": "Custom creations combining the natural character of wood with the possibilities of epoxy.",
+
+      "cuttingBoardAlt": "Wooden cutting board",
+      "cuttingBoardTitle": "Cutting boards",
+      "cuttingBoardText": "Pieces designed to showcase the natural beauty of wood while meeting everyday needs.",
+
+      "jewelryAlt": "Handcrafted wood and resin jewelry",
+      "jewelryTitle": "Jewelry",
+      "jewelryText": "Small personalized creations where wood and epoxy allow different colours, shapes and details to be explored."
+    },
+    "material": {
+      "eyebrow": "Material first",
+      "title": "Wood can stay natural. Epoxy can become the design.",
+      "p1": "Epoxy does not need to be present in every project. Wood can also be worked on its own to highlight its natural appearance and create pieces that are both practical and decorative.",
+      "p2": "When used, resin can be clear, coloured, opaque or translucent. It can fill sections of the wood, create contrast or become the main design element.",
+      "p3": "Depending on the project, wood and epoxy can also be combined with metal or 3D-printed components when the realization requires it."
+    },
+    "cta": {
+      "eyebrow": "Custom project",
+      "title": "Have a wood combination, colour or effect in mind?"
+    }
   },
-  "craft": {
-    "eyebrow": "Craftsmanship",
-    "title": "Precision meets material.",
-    "description": "Handcraft takes time. Wood selection, preparation, assembly, pouring, sanding and finishing are approached with care at every stage.",
-    "items": [
-      { "title": "Selected wood", "text": "Each piece is chosen for its character, stability and aesthetic potential." },
-      { "title": "Custom design", "text": "Dimensions, shape, species and finish are defined around your project." },
-      { "title": "Epoxy resin", "text": "Resin becomes a design element: clear, tinted or subtly pigmented." },
-      { "title": "Hand finishing", "text": "Sanding and finishing reveal the grain and provide lasting protection." }
-    ]
+  "metal": {
+    "hero": {
+      "eyebrow": "Welding & Metal",
+      "title": "Metal, fabricated around the need.",
+      "description": "Create a new part, modify something that already exists, repair an assembly or build a solution that is difficult to find commercially.",
+      "imageAlt": "Graphic visual representing metal part design"
+    },
+    "intro": {
+      "eyebrow": "Metal fabrication",
+      "title": "An approach adapted to the project.",
+      "text": "L’atelier BREDDY Inc. carries out various metal fabrication projects. Welding can be used for new fabrication, modification or repair.",
+      "services": [
+        { "title": "Welding", "text": "Steel, aluminum and stainless steel for fabrication, modification and repair work." },
+        { "title": "Custom fabrication", "text": "Supports, structures, assemblies and various metal parts built around the desired dimensions and use." },
+        { "title": "Modification", "text": "Cut, adjust, reinforce or transform an existing part when the project allows it." },
+        { "title": "Manual plasma cutting", "text": "For certain projects, manual plasma cutting can prepare parts before adjustment, assembly and welding." },
+        { "title": "Repair", "text": "Each situation is evaluated according to the material, condition and intended use to determine the possibilities." }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "Work to be documented.",
+      "text": "The gallery structure is ready. Welding and metal fabrication photos will be integrated as soon as they are available.",
+      "placeholderAlt": "Reserved space for a welding or metal fabrication photo"
+    },
+    "combination": {
+      "eyebrow": "Multiple materials",
+      "title": "Metal can become part of a more complete project.",
+      "text": "Depending on the project, metal fabrication can be combined with wood, 3D-printed parts or other methods available in the workshop."
+    },
+    "cta": {
+      "eyebrow": "Metal project",
+      "title": "Have a metal project in mind? Tell us what you need."
+    }
   },
-  "process": {
-    "eyebrow": "From first conversation to final piece",
-    "title": "Every project follows its own path.",
-    "items": [
-      { "title": "Your idea", "text": "We discuss your needs, space, dimensions and inspiration." },
-      { "title": "The wood", "text": "We define the species and select the material suited to the project." },
-      { "title": "The design", "text": "Proportions, colours, shapes and details are defined before fabrication." },
-      { "title": "The making", "text": "Wood preparation, assembly, resin pouring, machining and sanding." },
-      { "title": "The finish", "text": "The surface is carefully prepared and protected according to the piece's use." },
-      { "title": "Delivery", "text": "Your creation is carefully prepared to enter its new space." }
-    ]
+  "threed": {
+    "hero": {
+      "eyebrow": "3D Design & Printing",
+      "title": "An idea can start with a few lines.",
+      "description": "A photo, sketch, existing part or simple explanation can be enough to begin. Design turns that first idea into something concrete.",
+      "imageAlt": "Graphic visual representing a technical 3D design"
+    },
+    "intro": {
+      "eyebrow": "From idea to part",
+      "title": "Design, test, adjust, fabricate.",
+      "text": "3D design lets us work through shapes, dimensions and assemblies before the first part is made.",
+      "process": [
+        { "title": "Understand the need", "text": "We look at the use, constraints and desired outcome." },
+        { "title": "Shape the idea", "text": "Modelling lets us work through forms, dimensions and assemblies before fabrication." },
+        { "title": "Test and adjust", "text": "A prototype can be made to check dimensions, fit or function." },
+        { "title": "Move into fabrication", "text": "3D printing can directly produce a part or serve as the starting point for a project combining several techniques." }
+      ]
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "Design, prototype and final result.",
+      "text": "The gallery structure is ready. Design captures, prototypes and printed parts will be added as they become available.",
+      "placeholderAlt": "Reserved space for a 3D design or printing photo"
+    },
+    "printing": {
+      "eyebrow": "3D printing beyond prototyping",
+      "title": "Useful parts, not just tests.",
+      "p1": "3D printing can be used for functional parts, supports, adapters, enclosures, accessories, replacement parts, custom creations and small production runs.",
+      "p2": "We work with PLA, PETG, ASA and Nylon (carbon fibre). Material choice depends on the part’s use, environment and desired characteristics."
+    },
+    "cta": {
+      "eyebrow": "Your idea",
+      "title": "Have the part or the idea? Tell us about your project."
+    }
   },
-  "statement": {
-    "eyebrow": "Your idea can become a piece",
-    "title": "Imagine it. We give it form.",
-    "cta": "Start a project"
-  },
-  "quote": {
-    "eyebrow": "Custom project",
-    "title": "Let's talk about your project.",
-    "description": "A few details are enough to get started. We can then refine the materials, dimensions and details of your creation together.",
-    "note": "Inspiration photos, sketches or references are welcome. They help us understand your vision."
-  },
-  "form": {
-    "name": "Name",
-    "email": "Email",
-    "phone": "Phone",
-    "project": "Project type",
-    "dimensions": "Desired dimensions",
-    "wood": "Preferred wood species",
-    "resin": "Resin colour / effect",
-    "budget": "Approximate budget",
-    "message": "Tell us about your project",
-    "submit": "Request my quote",
-    "successTitle": "Thank you for your project.",
-    "successText": "Your request is ready to be processed. In the next project stage, this form will be connected to your preferred delivery solution so every request goes directly to BREDDY.",
-    "projects": [
-      { "title": "Dining table", "value": "table-dining" },
-      { "title": "Coffee table", "value": "coffee-table" },
-      { "title": "Counter / surface", "value": "counter" },
-      { "title": "Decorative object", "value": "decorative" },
-      { "title": "Other project", "value": "other" }
-    ],
-    "budgets": ["Under $500", "$500 – $1,000", "$1,000 – $2,500", "$2,500 – $5,000", "$5,000+", "Not sure yet"]
-  },
-  "faq": {
-    "eyebrow": "Frequently asked questions",
-    "title": "Every project starts with a question.",
-    "description": "Clear answers to the questions people often ask before ordering a wood and epoxy resin creation.",
-    "items": [
-      { "question": "What is a wood and epoxy resin creation?", "answer": "It is a piece that combines solid wood with epoxy resin, often used to highlight the natural shape of the wood or create a contrast of colour and transparency." },
-      { "question": "Can a table be completely custom made?", "answer": "Yes. Dimensions, shape, wood species, resin colour and finish can be defined according to the project and the constraints of the space." },
-      { "question": "What wood can be used with epoxy resin?", "answer": "Different species can be suitable. The choice depends on wood stability, moisture content, appearance and the final use of the piece." },
-      { "question": "How much does a wood and resin table cost?", "answer": "Price depends greatly on dimensions, wood species, amount of resin, design complexity and finish. A quote request provides an estimate tailored to the project." },
-      { "question": "How long does it take to make a piece?", "answer": "Timing varies by project, material availability and curing and finishing stages. The schedule is confirmed before fabrication begins." }
-    ]
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let’s talk about your project.",
+      "description": "Have an idea, a part to reproduce, something to repair or a completely custom project? Simply tell us what you need.",
+      "imageAlt": "Wood creation by L’atelier BREDDY Inc."
+    },
+    "info": {
+      "eyebrow": "L’atelier BREDDY Inc.",
+      "title": "Granby, Quebec.",
+      "locationLabel": "Location",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "hoursLabel": "Hours",
+      "hours": "Monday to Friday · 9 a.m. to 5 p.m.",
+      "socialTitle": "Find us on social media",
+      "socialPending": "Exact Instagram and Facebook links will be added once confirmed."
+    },
+    "form": {
+      "eyebrow": "Request a quote",
+      "title": "A few details are enough to get started.",
+      "description": "You do not need every detail figured out. We can clarify the possibilities together.",
+      "name": "Name",
+      "contact": "Email or phone",
+      "project": "Project type",
+      "projectPlaceholder": "Choose a category",
+      "project3d": "3D design & printing",
+      "projectMetal": "Welding & metal",
+      "projectWood": "Wood & epoxy",
+      "projectOther": "Other project",
+      "message": "Tell us about your project",
+      "note": "Photos, sketches or references can be sent by email with your request.",
+      "submit": "Prepare my request",
+      "afterSubmit": "Your email request has been prepared. If your email application does not open, contact us directly at breddy.atelier24{'@'}gmail.com."
+    },
+    "project": {
+      "eyebrow": "From first conversation to realization",
+      "title": "An idea does not need to be fully defined to begin.",
+      "text": "A photo, sketch, existing part or simple description can be enough. We can then look together at the options for your project."
+    }
   },
   "footer": {
-    "description": "Handcrafted solid wood and epoxy resin creations, designed for spaces that deserve a unique piece.",
+    "description": "Custom design and fabrication in Granby: 3D printing, welding and metalwork, woodworking and epoxy.",
     "explore": "Explore",
     "contact": "Contact",
-    "byAppointment": "Workshop by appointment",
+    "hours": "Mon. – Fri. · 9 a.m. – 5 p.m.",
     "rights": "All rights reserved.",
-    "tagline": "Wood · Resin · Design · Craft"
+    "tagline": "Elegant · Modern · Artisanal · Technical · Custom"
   }
 }

@@ -2,14 +2,16 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
 
+  experimental: {
+    appManifest: false
+  },
+
   modules: [
     '@nuxtjs/tailwindcss',
     'vuetify-nuxt-module',
     '@nuxtjs/i18n'
   ],
-  experimental: {
-    appManifest: false
-  },
+
   css: [
     'vuetify/styles',
     '@mdi/font/css/materialdesignicons.css',
@@ -17,10 +19,6 @@ export default defineNuxtConfig({
   ],
 
   vuetify: {
-    moduleOptions: {
-      /* Keep Vuetify available for robust form/navigation components.
-         The visual identity is controlled primarily by Tailwind + CSS. */
-    },
     vuetifyOptions: {
       theme: {
         defaultTheme: 'breddyLight',
@@ -28,10 +26,10 @@ export default defineNuxtConfig({
           breddyLight: {
             dark: false,
             colors: {
-              primary: '#171614',
-              secondary: '#6F604D',
-              surface: '#F6F3EE',
-              background: '#F6F3EE'
+              primary: '#171717',
+              secondary: '#9B7454',
+              surface: '#F7F5F1',
+              background: '#F7F5F1'
             }
           }
         }
@@ -49,16 +47,16 @@ export default defineNuxtConfig({
     langDir: 'locales'
   },
 
-
   app: {
     head: {
       htmlAttrs: { lang: 'fr' },
       meta: [
-        { name: 'theme-color', content: '#171614' },
+        { name: 'theme-color', content: '#171717' },
         { name: 'format-detection', content: 'telephone=no' }
       ],
       link: [
-        { rel: 'preconnect', href: 'https://images.unsplash.com' }
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' }
       ]
     }
   },
@@ -67,11 +65,5 @@ export default defineNuxtConfig({
     public: {
       siteUrl: 'https://www.tallerbreddy.com'
     }
-  },
-
-  vite: {
-  server: {
-    hmr: false
   }
-}
 })
