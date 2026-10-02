@@ -107,6 +107,9 @@
       ]
     },
     "gallery": {
+      "eyebrow": "Galerie de créations",
+      "title": "Des réalisations sur mesure d’exception.",
+      "text": "Parcourez nos tables ríos, jeux d’échecs, planches gastronomiques et bijoux artisanaux nés de la rencontre du bois noble et de la résine époxy.",
       "tableAlt": "Table en bois et résine époxy",
       "tableTitle": "Tables sur mesure",
       "tableText": "Des pièces conçues selon les dimensions, le bois, les couleurs et le style recherchés.",

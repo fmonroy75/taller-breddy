@@ -106,7 +106,10 @@
         { "title": "Restorations", "text": "Preparation, sanding and finishing to transform an existing piece." }
       ]
     },
-     "gallery": {
+    "gallery": {
+      "eyebrow": "Creations Gallery",
+      "title": "Exceptional custom-made realizations.",
+      "text": "Explore our river tables, chess sets, gourmet cutting boards, and handcrafted jewelry combining noble wood and epoxy resin.",
       "tableAlt": "Wood and epoxy resin table",
       "tableTitle": "Custom tables",
       "tableText": "Pieces designed around the desired dimensions, wood, colours and style.",

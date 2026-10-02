@@ -10,7 +10,7 @@ useSeoMeta({
   ogTitle: () => t('seo.wood.title'),
   ogDescription: () => t('seo.wood.description'),
   ogType: 'website',
-  ogImage: `${siteUrl}/images/bois-epoxy/hero/portada.PNG`,
+  ogImage: `${siteUrl}/images/bois-epoxy/hero/portada_studio.png`,
   twitterCard: 'summary_large_image'
 })
 
@@ -22,7 +22,13 @@ useHead(() => ({
 
 <template>
   <div>
-    <PageHero :eyebrow="t('wood.hero.eyebrow')" :title="t('wood.hero.title')" :description="t('wood.hero.description')" image="/images/bois-epoxy/hero/portada.PNG" :image-alt="t('wood.hero.imageAlt')" />
+    <PageHero
+      :eyebrow="t('wood.hero.eyebrow')"
+      :title="t('wood.hero.title')"
+      :description="t('wood.hero.description')"
+      image="/images/bois-epoxy/hero/portada_studio.png"
+      :image-alt="t('wood.hero.imageAlt')"
+    />
 
     <section class="bg-breddy-ivory py-24 md:py-32">
       <div class="breddy-container">
@@ -37,27 +43,178 @@ useHead(() => ({
       </div>
     </section>
 
+    <!-- Luxury Craftsmanship Portfolio Section -->
     <section class="bg-breddy-charcoal py-24 text-breddy-ivory md:py-32">
       <div class="breddy-container">
-        <SectionIntro :eyebrow="t('wood.gallery.eyebrow')" :title="t('wood.gallery.title')" :text="t('wood.gallery.text')" dark />
-        <div class="mt-14">
+        <SectionIntro
+          :eyebrow="t('wood.gallery.eyebrow')"
+          :title="t('wood.gallery.title')"
+          :text="t('wood.gallery.text')"
+          dark
+        />
+        
+        <div class="mt-16">
           <GalleryGrid
             dark
+            show-filters
             :items="[
-              { src: '/images/bois-epoxy/galerie/mesa.PNG', alt: t('wood.gallery.mesaAlt'), title: t('wood.gallery.mesaTitle'), text: t('wood.gallery.mesaText'), span: 'large' },
-              { src: '/images/bois-epoxy/galerie/IMG_2224.JPEG', alt: t('wood.gallery.mesaAlt'), title: t('wood.gallery.mesaTitle'), text: t('wood.gallery.mesaText') },
-              
-              { src: '/images/bois-epoxy/galerie/ajedrez.PNG', alt: t('wood.gallery.chessAlt'), title: t('wood.gallery.chessTitle'), text: t('wood.gallery.chessText') },
-              { src: '/images/bois-epoxy/galerie/ajedrez2.PNG', alt: t('wood.gallery.detailAlt'), title: t('wood.gallery.detailTitle'), text: t('wood.gallery.detailText') },
-              { src: '/images/bois-epoxy/galerie/IMG_3270.JPEG', alt: t('wood.gallery.accessoriesAlt'), title: t('wood.gallery.accessoriesTitle'), text: t('wood.gallery.accessoriesText') },
-              { src: '/images/bois-epoxy/galerie/IMG_3279.JPEG', alt: t('wood.gallery.accessoriesAlt'), title: t('wood.gallery.accessoriesTitle'), text: t('wood.gallery.accessoriesText') },
-              { src: '/images/bois-epoxy/galerie/IMG_3288.JPEG', alt: t('wood.gallery.cuttingBoarAlt'), title: t('wood.gallery.cuttingBoarTitle'), text: t('wood.gallery.cuttingBoarText') },
-              { src: '/images/bois-epoxy/galerie/IMG_3289.JPEG', alt: t('wood.gallery.cuttingBoarAlt'), title: t('wood.gallery.cuttingBoarTitle'), text: t('wood.gallery.cuttingBoarText') },
-              { src: '/images/bois-epoxy/galerie/IMG_3294.JPEG', alt: t('wood.gallery.cuttingBoarAlt'), title: t('wood.gallery.cuttingBoarTitle'), text: t('wood.gallery.cuttingBoarText') },
-              
-              { src: '/images/bois-epoxy/galerie/IMG_3637.JPEG', alt: t('wood.gallery.jewelryAlt'), title: t('wood.gallery.jewelryTitle'), text: t('wood.gallery.jewelryText') },
-              { src: '/images/bois-epoxy/galerie/IMG_3643.JPEG', alt: t('wood.gallery.jewelryAlt'), title: t('wood.gallery.jewelryTitle'), text: t('wood.gallery.jewelryText') },
-              { src: '/images/bois-epoxy/galerie/IMG_3642.JPEG', alt: t('wood.gallery.jewelryAlt'), title: t('wood.gallery.jewelryTitle'), text: t('wood.gallery.jewelryText') }
+              {
+                src: '/images/bois-epoxy/galerie/table_river_studio.png',
+                alt: t('wood.gallery.tableAlt'),
+                title: 'Table Rivière Noyer & Époxy Bleu Profond',
+                category: 'tables',
+                categoryLabel: 'Mobilier Sur Mesure',
+                text: 'Noyer Massif & Résine Cristalline',
+                badge: 'Édition Prestige',
+                span: 'large'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/mesa.PNG',
+                alt: t('wood.gallery.tableAlt'),
+                title: t('wood.gallery.tableTitle'),
+                category: 'tables',
+                categoryLabel: 'Tables',
+                text: t('wood.gallery.tableText'),
+                badge: 'Sur Mesure'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/IMG_2224.JPEG',
+                alt: t('wood.gallery.tableAlt'),
+                title: 'Table Basse & Résine Époxy Translucide',
+                category: 'tables',
+                categoryLabel: 'Mobilier',
+                text: 'Veinures Organiques & Incrustations',
+                badge: 'Atelier Granby'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/chess_studio.png',
+                alt: t('wood.gallery.chessAlt'),
+                title: 'Jeu d’Échecs Prestige Bois & Résine Metallic',
+                category: 'chess',
+                categoryLabel: 'Jeux d’Artisanat',
+                text: 'Plateau & Pièces Sculptées Sur Mesure',
+                badge: 'Création Signature',
+                span: 'large'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/ajedrez.PNG',
+                alt: t('wood.gallery.chessAlt'),
+                title: t('wood.gallery.chessTitle'),
+                category: 'chess',
+                categoryLabel: 'Jeux',
+                text: t('wood.gallery.chessText'),
+                badge: 'Finition Main'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/ajedrez2.PNG',
+                alt: t('wood.gallery.chessDetailAlt'),
+                title: t('wood.gallery.chessDetailTitle'),
+                category: 'chess',
+                categoryLabel: 'Détail',
+                text: t('wood.gallery.chessDetailText'),
+                badge: 'Savoir-Faire'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/cutting_board_studio.png',
+                alt: t('wood.gallery.cuttingBoardAlt'),
+                title: 'Planche Gastronomique Bois de Bout & Époxy Bronze',
+                category: 'boards',
+                categoryLabel: 'Art de la Table',
+                text: 'Bois Massif, Époxy & Huile Naturelle',
+                badge: 'Finition Fine',
+                span: 'large'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/IMG_3270.JPEG',
+                alt: t('wood.gallery.cuttingBoardAlt'),
+                title: t('wood.gallery.cuttingBoardTitle'),
+                category: 'boards',
+                categoryLabel: 'Planches',
+                text: t('wood.gallery.cuttingBoardText'),
+                badge: 'Artisanat'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/IMG_3279.JPEG',
+                alt: t('wood.gallery.cuttingBoardAlt'),
+                title: 'Planche de Service Bois & Résine Accent',
+                category: 'boards',
+                categoryLabel: 'Planches',
+                text: 'Grain Naturel & Lignes Modernes',
+                badge: 'Usage Quotidien'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/IMG_3288.JPEG',
+                alt: t('wood.gallery.cuttingBoardAlt'),
+                title: 'Plateau de Présentation Bois Brut',
+                category: 'boards',
+                categoryLabel: 'Service',
+                text: 'Mise en valeur du veinage naturel',
+                badge: 'Pièce Unique'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/IMG_3289.JPEG',
+                alt: t('wood.gallery.cuttingBoardAlt'),
+                title: 'Planche Gourmande sur Mesure',
+                category: 'boards',
+                categoryLabel: 'Cuisine',
+                text: 'Finition Protectrice & Alimentaire',
+                badge: 'Sur Mesure'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/IMG_3294.JPEG',
+                alt: t('wood.gallery.cuttingBoardAlt'),
+                title: 'Planche à Découper en Noyer Noble',
+                category: 'boards',
+                categoryLabel: 'Planches',
+                text: 'Incrustations Subtiles & Polissage',
+                badge: 'Atelier BREDDY'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/jewelry_studio.png',
+                alt: t('wood.gallery.jewelryAlt'),
+                title: 'Pendentif Artisan Noyer, Époxy & Éclats d’Or',
+                category: 'jewelry',
+                categoryLabel: 'Bijoux & Accessoires',
+                text: 'Loupe de Bois & Polissage Miroir',
+                badge: 'Petite Série',
+                span: 'large'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/IMG_3637.JPEG',
+                alt: t('wood.gallery.jewelryAlt'),
+                title: t('wood.gallery.jewelryTitle'),
+                category: 'jewelry',
+                categoryLabel: 'Bijoux',
+                text: t('wood.gallery.jewelryText'),
+                badge: 'Fait Main'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/IMG_3643.JPEG',
+                alt: t('wood.gallery.accessoriesAlt'),
+                title: t('wood.gallery.accessoriesTitle'),
+                category: 'jewelry',
+                categoryLabel: 'Accessoires',
+                text: t('wood.gallery.accessoriesText'),
+                badge: 'Création Unique'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/IMG_3642.JPEG',
+                alt: t('wood.gallery.jewelryAlt'),
+                title: 'Collection de Bijoux Bois & Résine',
+                category: 'jewelry',
+                categoryLabel: 'Bijoux',
+                text: 'Variations de Teintes & Profondeur',
+                badge: 'Granby'
+              },
+              {
+                src: '/images/bois-epoxy/galerie/IMG_3705.JPEG',
+                alt: t('wood.gallery.accessoriesAlt'),
+                title: 'Accessoire Décoratif Bois & Époxy',
+                category: 'jewelry',
+                categoryLabel: 'Accessoires',
+                text: 'Finition Fine & Polissage Artisanal',
+                badge: 'Pièce Unique'
+              }
             ]"
           />
         </div>
@@ -89,3 +246,4 @@ useHead(() => ({
     </section>
   </div>
 </template>
+
