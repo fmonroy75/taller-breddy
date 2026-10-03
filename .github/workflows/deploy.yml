@@ -38,16 +38,13 @@ jobs:
       - name: Generate Nuxt site
         run: npm run generate
 
-      - name: Create index.html, 404.html fallback & .nojekyll
+      - name: Prepare GitHub Pages
         run: |
           touch .output/public/.nojekyll
-          [ -f .output/public/index.html ] || cp .output/public/200.html .output/public/index.html 2>/dev/null || true
-          [ -f .output/public/404.html ] || cp .output/public/200.html .output/public/404.html 2>/dev/null || true
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .output/public
+            - name: Upload Pages artifact
+              uses: actions/upload-pages-artifact@v3
+              with:
+                path: .output/public
 
   deploy:
     environment:
@@ -61,4 +58,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
