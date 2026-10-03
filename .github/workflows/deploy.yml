@@ -18,6 +18,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      NUXT_APP_BASE_URL: /taller-breddy/
+      NUXT_PUBLIC_SITE_URL: https://fmonroy75.github.io/taller-breddy/
 
     steps:
       - name: Checkout
