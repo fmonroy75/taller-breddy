@@ -8,7 +8,7 @@ const localePath = useLocalePath()
     <div class="breddy-container py-16 md:py-20">
       <div class="grid gap-12 md:grid-cols-[1.2fr_.8fr_.9fr]">
         <div>
-          <img src="/images/brand/logo-breddy.png" alt="L’atelier BREDDY Inc." class="h-20 w-20 object-contain brightness-0 invert">
+          <img :src="useAssetPath('/images/brand/logo-breddy.png')" alt="L’atelier BREDDY Inc." class="h-20 w-20 object-contain brightness-0 invert">
           <p class="mt-6 max-w-md text-sm leading-7 text-breddy-stone">{{ t('footer.description') }}</p>
         </div>
 

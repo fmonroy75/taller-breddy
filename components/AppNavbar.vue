@@ -22,7 +22,7 @@ function changeLocale(code: string) {
     <div class="breddy-container">
       <div class="flex min-h-24 items-center justify-between border-b border-white/15">
         <NuxtLink :to="localePath('/')" aria-label="L’atelier BREDDY Inc." class="group flex items-center">
-          <img src="/images/brand/logo-breddy.png" alt="L’atelier BREDDY Inc." class="h-16 w-16 object-contain brightness-0 invert transition duration-300 group-hover:opacity-75">
+          <img :src="useAssetPath('/images/brand/logo-breddy.png')" alt="L’atelier BREDDY Inc." class="h-16 w-16 object-contain brightness-0 invert transition duration-300 group-hover:opacity-75">
         </NuxtLink>
 
         <nav class="hidden items-center gap-7 xl:flex" aria-label="Navigation principale">

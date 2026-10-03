@@ -22,7 +22,7 @@ const props = withDefaults(defineProps<Props>(), {
     :class="props.compact ? 'min-h-[56vh]' : 'min-h-[76vh]'"
   >
     <div v-if="props.image" class="absolute inset-0 -z-20">
-      <img :src="props.image" :alt="props.imageAlt || props.title" class="h-full w-full object-cover" :fetchpriority="props.compact ? 'auto' : 'high'">
+      <img :src="useAssetPath(props.image)" :alt="props.imageAlt || props.title" class="h-full w-full object-cover" :fetchpriority="props.compact ? 'auto' : 'high'">
     </div>
     <div v-else class="absolute inset-0 -z-20 bg-breddy-charcoal">
       <div class="absolute inset-0 bg-[linear-gradient(115deg,rgba(155,116,84,.14),transparent_38%,rgba(255,255,255,.03)_70%,transparent)]" />

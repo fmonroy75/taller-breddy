@@ -148,7 +148,7 @@ onUnmounted(() => {
           :class="item.span === 'large' ? 'aspect-[4/3] lg:aspect-[16/11]' : 'aspect-[4/3]'"
         >
           <img
-            :src="item.src"
+            :src="useAssetPath(item.src)"
             :alt="item.alt"
             class="h-full w-full object-cover brightness-[0.93] contrast-[1.06] saturate-[1.08] transition-all duration-700 ease-out group-hover:scale-105 group-hover:brightness-100"
             loading="lazy"
@@ -247,7 +247,7 @@ onUnmounted(() => {
             <!-- Active Image -->
             <div class="max-h-[75vh] max-w-[90vw] overflow-hidden rounded-sm shadow-2xl border border-white/10 bg-black">
               <img
-                :src="activeItem.src"
+                :src="useAssetPath(activeItem.src)"
                 :alt="activeItem.alt"
                 class="max-h-[75vh] w-auto max-w-[90vw] object-contain transition-all duration-300"
               >

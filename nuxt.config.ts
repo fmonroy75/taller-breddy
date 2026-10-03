@@ -1,6 +1,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
+  telemetry: false,
 
   experimental: {
     appManifest: false
@@ -48,6 +49,7 @@ export default defineNuxtConfig({
   },
 
   app: {
+    baseURL: process.env.NUXT_APP_BASE_URL || '/taller-breddy/',
     head: {
       htmlAttrs: { lang: 'fr' },
       meta: [

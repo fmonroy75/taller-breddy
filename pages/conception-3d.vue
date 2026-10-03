@@ -38,7 +38,7 @@ useHead(() => ({ htmlAttrs: { lang: locale.value }, link: [{ rel: 'canonical', h
       <div class="breddy-container">
         <SectionIntro :eyebrow="t('threed.gallery.eyebrow')" :title="t('threed.gallery.title')" :text="t('threed.gallery.text')" dark />
         <div class="mt-14 grid gap-5 md:grid-cols-3">
-          <img v-for="src in ['/images/conception-3d/galerie/IMG_3681.JPEG','/images/conception-3d/galerie/IMG_3666.JPEG','/images/conception-3d/galerie/photo-a-ajouter-03.svg']" :key="src" :src="src" :alt="t('threed.gallery.placeholderAlt')" class="aspect-[4/3] w-full object-cover" loading="lazy">
+          <img v-for="src in ['/images/conception-3d/galerie/IMG_3681.JPEG','/images/conception-3d/galerie/IMG_3666.JPEG','/images/conception-3d/galerie/photo-a-ajouter-03.svg']" :key="src" :src="useAssetPath(src)" :alt="t('threed.gallery.placeholderAlt')" class="aspect-[4/3] w-full object-cover" loading="lazy">
         </div>
       </div>
     </section>
