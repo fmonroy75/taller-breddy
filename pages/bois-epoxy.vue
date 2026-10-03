@@ -176,7 +176,7 @@ useHead(() => ({
                 category: 'jewelry',
                 categoryLabel: 'Bijoux & Accessoires',
                 text: 'Loupe de Bois & Polissage Miroir',
-                badge: 'Petite Série',
+                badge: 'Petite Série.',
                 span: 'large'
               },
               {
