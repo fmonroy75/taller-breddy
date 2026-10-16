@@ -15,14 +15,16 @@ function changeLocale(code: string) {
   setLocale(code)
   mobileOpen.value = false
 }
+
+const logoSrc = computed(() => useAssetPath('/images/brand/logo-breddy.png'))
 </script>
 
 <template>
   <header class="absolute inset-x-0 top-0 z-50 text-white">
     <div class="breddy-container">
       <div class="flex min-h-24 items-center justify-between border-b border-white/15">
-        <NuxtLink :to="localePath('/')" aria-label="L’atelier BREDDY Inc." class="group flex items-center">
-          <img :src="useAssetPath('/images/brand/logo-breddy.png')" alt="L’atelier BREDDY Inc." class="h-16 w-16 object-contain brightness-0 invert transition duration-300 group-hover:opacity-75">
+        <NuxtLink :to="localePath('/')" aria-label="L'atelier BREDDY Inc." class="group flex items-center">
+          <img :src="logoSrc" alt="L'atelier BREDDY Inc." class="h-16 w-16 object-contain transition duration-300 group-hover:opacity-75" style="mix-blend-mode: screen;">
         </NuxtLink>
 
         <nav class="hidden items-center gap-7 xl:flex" aria-label="Navigation principale">
