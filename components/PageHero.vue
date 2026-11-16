@@ -22,15 +22,15 @@ const props = withDefaults(defineProps<Props>(), {
     :class="props.compact ? 'min-h-[56vh]' : 'min-h-[76vh]'"
   >
     <div v-if="props.image" class="absolute inset-0 -z-20">
-      <img :src="useAssetPath(props.image)" :alt="props.imageAlt || props.title" class="h-full w-full object-cover" :fetchpriority="props.compact ? 'auto' : 'high'">
+      <img :src="useAssetPath(props.image)" :alt="props.imageAlt || props.title"   class="object-contain object-right w-full h-full brightness-100" :fetchpriority="props.compact ? 'auto' : 'high'">
     </div>
     <div v-else class="absolute inset-0 -z-20 bg-breddy-charcoal">
       <div class="absolute inset-0 bg-[linear-gradient(115deg,rgba(155,116,84,.14),transparent_38%,rgba(255,255,255,.03)_70%,transparent)]" />
       <div class="absolute right-[-10vw] top-1/2 h-[36vw] w-[36vw] -translate-y-1/2 rounded-full border border-breddy-bronze/30" />
       <div class="absolute right-[4vw] top-1/2 h-[22vw] w-[22vw] -translate-y-1/2 rounded-full border border-breddy-stone/15" />
     </div>
-    <div class="absolute inset-0 -z-10 bg-black/55" />
-    <div class="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(23,23,23,.94)_0%,rgba(23,23,23,.72)_46%,rgba(23,23,23,.18)_100%)]" />
+    <div class="absolute inset-0 -z-10 bg-black/0" />
+    <div class="absolute inset-0 -z-10 bg-[linear-gradient(90deg,rgba(23,23,23,.94)_0%,rgba(23,23,23,.72)_26%,rgba(23,23,23,.18)_100%)]" />
 
     <div class="breddy-container flex min-h-[inherit] items-end pb-20 pt-40 md:pb-24">
       <div class="max-w-4xl">

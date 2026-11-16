@@ -2,7 +2,96 @@
 const { t } = useI18n()
 const localePath = useLocalePath()
 </script>
+<style scoped>
+.footer-credit {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+.footer-credit-label {
+  font-size: 12px;
+  color: #fff;
+  font-weight: 500;
+}
+.ingenium-credit {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: opacity 0.25s;
+}
+.ingenium-credit:hover {
+  opacity: 0.75;
+}
+.ingenium-mark img {
+  height: 32px;
+  width: auto;
+}
+.ingenium-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+.ingenium-arrow {
+  font-size: 20px;
+  line-height: 1;
+  color: #48cae4;
+}
 
+/* =========================
+   INGENIUM CREDIT
+========================= */
+
+.ingenium-credit {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+
+  transition:
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    letter-spacing 0.35s ease;
+}
+
+.ingenium-credit:hover {
+  transform: translateY(-3px) scale(1.035);
+  letter-spacing: 0.025em;
+}
+
+.ingenium-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  transition:
+    transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.35s ease;
+}
+
+.ingenium-credit:hover .ingenium-mark {
+  transform: scale(1.15) rotate(-3deg);
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.2));
+}
+
+.ingenium-mark img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  display: block;
+}
+
+.ingenium-arrow {
+  display: inline-block;
+
+  transition:
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.ingenium-credit:hover .ingenium-arrow {
+  transform: translate(3px, -3px) scale(1.15);
+}
+
+</style>
 <template>
   <footer class="bg-breddy-charcoal text-breddy-ivory">
     <div class="breddy-container py-16 md:py-20">
@@ -31,26 +120,27 @@ const localePath = useLocalePath()
             <p>Granby, Québec</p>
             <p>{{ t('footer.hours') }}</p>
             <div class="flex gap-5 pt-2 text-[10px] font-semibold uppercase tracking-[.18em] text-breddy-bronze">
-                <a
-    href="https://www.instagram.com/atelier_breddy/"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="transition hover:text-breddy-ivory"
-  >
-    Instagram
-  </a>
-
-  
-    <a
-    href="https://www.facebook.com/search/top/?q=l%27atelier%20breddy"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="transition hover:text-breddy-ivory"
-  >
-    Facebook
-  </a>
-             
+              <a href="https://www.instagram.com/atelier_breddy/" target="_blank" rel="noopener noreferrer" class="transition hover:text-breddy-ivory">Instagram</a>
+              <a href="https://www.facebook.com/61557737175562/" target="_blank" rel="noopener noreferrer" class="transition hover:text-breddy-ivory">Facebook</a>
             </div>
+          </div>
+
+          <!-- DEVELOPER CREDIT -->
+          <div class="footer-credit transform hover:scale-105 transition">
+            <span class="footer-credit-label">
+              Website crafted by
+            </span>
+            <a href="https://www.ingeniumbright.com/fr" target="_blank" rel="noopener noreferrer" class="ingenium-credit" aria-label="IngeniumBright - Technology and Web Development">
+              <span class="ingenium-mark">
+                <img src="/images/LogoIB.png" alt="IngeniumBright" />
+              </span>
+              <span class="ingenium-name">
+                IngeniumBright
+              </span>
+              <span class="ingenium-arrow">
+                ↗
+              </span>
+            </a>
           </div>
         </div>
       </div>

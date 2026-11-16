@@ -53,7 +53,7 @@ const services = [
       :eyebrow="t('home.hero.eyebrow')"
       :title="t('home.hero.title')"
       :description="t('home.hero.description')"
-      image="/images/bois-epoxy/hero/portada.PNG"
+      image="/images/bois-epoxy/hero/portada.png"
       :image-alt="t('home.hero.imageAlt')"
     />
 
