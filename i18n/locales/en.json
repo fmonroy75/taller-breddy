@@ -50,7 +50,7 @@
     "services": {
       "eyebrow": "Several areas of expertise",
       "title": "One workshop for projects that do not fit in a single box.",
-      "text": "An idea can start as a sketch, become a 3D model, require a metal component and be completed with wood or epoxy. We adapt the method to the project.",
+      "text": "An idea can start with a sketch, take shape through 3D design, and then be made, machined, or engraved with a CNC. Wood, epoxy, metal, and 3D printing can then be combined depending on the project's needs.",
       "conception3d": {
         "number": "01",
         "title": "3D Design & Printing",
@@ -64,7 +64,7 @@
       "bois": {
         "number": "03",
         "title": "Wood & Epoxy",
-        "text": "Create tables, boards, games, accessories and custom projects around the natural character of wood."
+        "text": "Create custom tables, boards, games, and projects in wood and epoxy, with options for engraving and CNC milling.."
       }
     },
     "gallery": {
@@ -78,8 +78,15 @@
       "chessTitle": "Chess set",
       "chessText": "Custom piece",
       "detailAlt": "Close-up of wood and epoxy resin",
-      "detailTitle": "Material & depth",
-      "detailText": "Finishing detail"
+      "metalTitle": "Metal Work",
+      "metalText": "Customized Work",
+      "metalAlt": "Customized Work",
+      "epoxyTitle": "Epoxy Work",
+      "epoxyText": "Customized Work",
+      "epoxyAlt": "Customized Work",
+      "3dTitle":"3D Desigwork",
+      "3dText": "Customized Work",
+      "3dAlt": "Customized Work"
     },
     "cta": {
       "eyebrow": "Your project",
@@ -91,7 +98,7 @@
     "hero": {
       "eyebrow": "Wood & Epoxy",
       "title": "Where wood meets epoxy.",
-      "description": "Every piece of wood has its own colours, grain and character. Epoxy adds another dimension: colour, transparency, depth and personalization.",
+      "description": "Every piece of wood has its own colours, grain and character. Epoxy adds another dimension: colour, transparency, depth and personalization. By bringing the two together, it becomes possible to create truly unique achievements.",
       "imageAlt": "Wood and epoxy resin creation"
     },
     "intro": {
@@ -130,9 +137,17 @@
       "cuttingBoardTitle": "Cutting boards",
       "cuttingBoardText": "Pieces designed to showcase the natural beauty of wood while meeting everyday needs.",
 
+      "charcuterieBoardAlt": "Charcuterie board",
+      "charcuterieBoardTitle": "Charcuterie boards",
+      "charcuterieBoardText": "Charcuterie boards.",
+
       "jewelryAlt": "Handcrafted wood and resin jewelry",
       "jewelryTitle": "Jewelry",
-      "jewelryText": "Small personalized creations where wood and epoxy allow different colours, shapes and details to be explored."
+      "jewelryText": "Small personalized creations.",
+
+      "ouvres-bouteillesAlt": "personalized bottle openers",
+      "ouvres-bouteillesTitle": "bottle openers",
+      "ouvres-bouteillesText": "epoxy bottle openers"
     },
     "material": {
       "eyebrow": "Material first",
@@ -167,7 +182,7 @@
     },
     "gallery": {
       "eyebrow": "Gallery",
-      "title": "Work to be documented.",
+      "title": "Customized Work.",
       "text": "The gallery structure is ready. Welding and metal fabrication photos will be integrated as soon as they are available.",
       "placeholderAlt": "Reserved space for a welding or metal fabrication photo"
     },

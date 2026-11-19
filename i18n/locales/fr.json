@@ -50,7 +50,7 @@
     "services": {
       "eyebrow": "Plusieurs savoir-faire",
       "title": "Un même atelier pour des projets qui ne rentrent pas dans une case.",
-      "text": "Une idée peut commencer par un croquis, devenir un modèle 3D, nécessiter une pièce métallique et se terminer avec du bois ou de l’époxy. Nous adaptons la méthode au projet.",
+      "text": "Une idée peut commencer par un croquis, prendre forme grâce à la conception 3D, puis être fabriquée, usinée ou gravée à la CNC. Bois, époxy, mméetal et impression 3D peuvent ensuite se combiner selon les besoins du projet.",
       "conception3d": {
         "number": "01",
         "title": "Conception & Impression 3D",
@@ -64,7 +64,7 @@
       "bois": {
         "number": "03",
         "title": "Bois & Époxy",
-        "text": "Créer des tables, planches, jeux, accessoires et projets personnalisés autour du caractère naturel du bois."
+        "text": "Créer des tables, planches, jeux et projets personnalisés en bois et époxy, avec des possibilités de gravure et d'usinage CNC."
       }
     },
     "gallery": {
@@ -79,7 +79,16 @@
       "chessText": "Pièce personnalisée",
       "detailAlt": "Détail de bois et résine époxy",
       "detailTitle": "Matière & profondeur",
-      "detailText": "Détail de finition"
+      "detailText": "Détail de finition",
+      "metalTitle": "Travail sur métal",
+      "metalText": "Travail personnalisé.",
+      "metalAlt": "Travail personnalisé.",
+      "epoxyTitle": "Travail sur Epoxy",
+      "epoxyText": "Travail personnalisé.", 
+      "epoxyAlt": "Travail personnalisé." ,
+      "3dTitle":"Travail de conception 3D",
+      "3dText": "Travail personnalisé",
+      "3dAlt": "Travail personnalisé"   
     },
     "cta": {
       "eyebrow": "Votre projet",
@@ -91,7 +100,7 @@
     "hero": {
       "eyebrow": "Bois & Époxy",
       "title": "Quand le bois rencontre l’époxy.",
-      "description": "Chaque morceau de bois possède ses propres couleurs, veinures et caractère. L’époxy ajoute une autre dimension : couleur, transparence, profondeur et possibilités de personnalisation.",
+      "description": "Chaque morceau de bois possède ses propres couleurs, veinures et caractère. L’époxy ajoute une autre dimension : couleur, transparence, profondeur et possibilités de personnalisation. En réunissant les deux, ils devient possible de créer des réalisations véeritablement unique.",
       "imageAlt": "Création en bois et résine époxy"
     },
     "intro": {
@@ -130,9 +139,19 @@
       "cuttingBoardTitle": "Planches à découper",
       "cuttingBoardText": "Des pièces conçues pour mettre en valeur le bois tout en répondant aux besoins du quotidien.",
 
+      "charcuterieBoardAlt": "Planche à charcuterie",
+      "charcuterieBoardTitle": "Planches à charcuterie",
+      "charcuterieBoardText": "Planches à charcuterie.",
+
+
       "jewelryAlt": "Bijou artisanal en bois et résine",
       "jewelryTitle": "Bijoux",
-      "jewelryText": "De petites créations personnalisées où le bois et l’époxy permettent de travailler les couleurs, les formes et les détails."
+      "jewelryText": "De petites créations personnalisées.",
+
+      "ouvres-bouteillesAlt": "ouvres-bouteilles personalisé",
+      "ouvres-bouteillesTitle": "ouvres-bouteilles",
+      "ouvres-bouteillesText": "ouvres-bouteilles époxy"
+
     },
     "material": {
       "eyebrow": "La matière au centre",
@@ -168,7 +187,7 @@
     },
     "gallery": {
       "eyebrow": "Galerie",
-      "title": "Des réalisations à documenter.",
+      "title": "travail personnalisé.",
       "text": "La structure de la galerie est prête. Les photos de soudure et de fabrication métallique seront intégrées dès qu’elles seront disponibles.",
       "placeholderAlt": "Emplacement réservé à une photo de soudure ou de fabrication métallique"
     },

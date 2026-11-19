@@ -10,7 +10,7 @@ useSeoMeta({
   ogTitle: () => t('seo.wood.title'),
   ogDescription: () => t('seo.wood.description'),
   ogType: 'website',
-  ogImage: `${siteUrl}/images/bois-epoxy/hero/portada_studio.png`,
+  ogImage: `${siteUrl}/images/bois-epoxy/hero/portada.png`,
   twitterCard: 'summary_large_image'
 })
 
@@ -26,7 +26,7 @@ useHead(() => ({
       :eyebrow="t('wood.hero.eyebrow')"
       :title="t('wood.hero.title')"
       :description="t('wood.hero.description')"
-      image="/images/bois-epoxy/hero/portada_studio.png"
+      image="/images/bois-epoxy/hero/portada.png"
       :image-alt="t('wood.hero.imageAlt')"
     />
 
@@ -59,7 +59,7 @@ useHead(() => ({
             show-filters
             :items="[
               {
-                src: '/images/bois-epoxy/galerie/table_river_studio.png',
+                src: '/images/bois-epoxy/galerie/IMG_2222.JPEG',
                 alt: t('wood.gallery.tableAlt'),
                 title: 'Table Rivière Noyer & Époxy Bleu Profond',
                 category: 'tables',
@@ -87,7 +87,7 @@ useHead(() => ({
                 badge: 'Atelier Granby'
               },
               {
-                src: '/images/bois-epoxy/galerie/chess_studio.png',
+                src: '/images/bois-epoxy/galerie/IMG_3619.JPEG',
                 alt: t('wood.gallery.chessAlt'),
                 title: 'Jeu d’Échecs Prestige Bois & Résine Metallic',
                 category: 'chess',
@@ -114,7 +114,7 @@ useHead(() => ({
                 text: t('wood.gallery.chessDetailText'),
                 badge: 'Savoir-Faire'
               },
-              {
+              /*{
                 src: '/images/bois-epoxy/galerie/cutting_board_studio.png',
                 alt: t('wood.gallery.cuttingBoardAlt'),
                 title: 'Planche Gastronomique Bois de Bout & Époxy Bronze',
@@ -123,31 +123,31 @@ useHead(() => ({
                 text: 'Bois Massif, Époxy & Huile Naturelle',
                 badge: 'Finition Fine',
                 span: 'large'
-              },
+              },*/
               {
                 src: '/images/bois-epoxy/galerie/IMG_3270.JPEG',
-                alt: t('wood.gallery.cuttingBoardAlt'),
-                title: t('wood.gallery.cuttingBoardTitle'),
+                alt: t('wood.gallery.ouvres-bouteillesAlt'),
+                title: t('wood.gallery.ouvres-bouteillesTitle'),
                 category: 'boards',
-                categoryLabel: 'Planches',
-                text: t('wood.gallery.cuttingBoardText'),
+                categoryLabel: 'Ouvres-bouteilles',
+                text: t('wood.gallery.ouvres-bouteillesText'),
                 badge: 'Artisanat'
               },
               {
                 src: '/images/bois-epoxy/galerie/IMG_3279.JPEG',
-                alt: t('wood.gallery.cuttingBoardAlt'),
-                title: 'Planche de Service Bois & Résine Accent',
+                alt: t('wood.gallery.charcuterieBoardAlt'),
+                title: 'Planches à charcuterie en époxy',
                 category: 'boards',
                 categoryLabel: 'Planches',
-                text: 'Grain Naturel & Lignes Modernes',
+                text: 'époxy',
                 badge: 'Usage Quotidien'
               },
               {
                 src: '/images/bois-epoxy/galerie/IMG_3288.JPEG',
-                alt: t('wood.gallery.cuttingBoardAlt'),
+                alt: t('wood.gallery.charcuterieBoardAlt'),
                 title: 'Plateau de Présentation Bois Brut',
                 category: 'boards',
-                categoryLabel: 'Service',
+                categoryLabel: 'Planches',
                 text: 'Mise en valeur du veinage naturel',
                 badge: 'Pièce Unique'
               },
@@ -169,7 +169,17 @@ useHead(() => ({
                 text: 'Incrustations Subtiles & Polissage',
                 badge: 'Atelier BREDDY'
               },
+              
               {
+                src: '/images/bois-epoxy/galerie/IMG_3705.JPEG',
+                alt: t('wood.gallery.accessoriesAlt'),
+                title: 'Accessoire Décoratif Époxy',
+                category: 'jewelry',
+                categoryLabel: 'Accessoires',
+                text: 'Finition Fine & Polissage Artisanal',
+                badge: 'Pièce Unique'
+              },
+              /*{
                 src: '/images/bois-epoxy/galerie/jewelry_studio.png',
                 alt: t('wood.gallery.jewelryAlt'),
                 title: 'Pendentif Artisan Noyer, Époxy & Éclats d’Or',
@@ -178,7 +188,7 @@ useHead(() => ({
                 text: 'Loupe de Bois & Polissage Miroir',
                 badge: 'Petite Série.',
                 span: 'large'
-              },
+              },*/
               {
                 src: '/images/bois-epoxy/galerie/IMG_3637.JPEG',
                 alt: t('wood.gallery.jewelryAlt'),
@@ -186,7 +196,8 @@ useHead(() => ({
                 category: 'jewelry',
                 categoryLabel: 'Bijoux',
                 text: t('wood.gallery.jewelryText'),
-                badge: 'Fait Main'
+                badge: 'Fait Main',
+                span: 'large'
               },
               {
                 src: '/images/bois-epoxy/galerie/IMG_3643.JPEG',
@@ -205,15 +216,6 @@ useHead(() => ({
                 categoryLabel: 'Bijoux',
                 text: 'Variations de Teintes & Profondeur',
                 badge: 'Granby'
-              },
-              {
-                src: '/images/bois-epoxy/galerie/IMG_3705.JPEG',
-                alt: t('wood.gallery.accessoriesAlt'),
-                title: 'Accessoire Décoratif Bois & Époxy',
-                category: 'jewelry',
-                categoryLabel: 'Accessoires',
-                text: 'Finition Fine & Polissage Artisanal',
-                badge: 'Pièce Unique'
               }
             ]"
           />

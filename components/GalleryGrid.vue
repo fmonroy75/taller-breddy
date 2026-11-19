@@ -5,7 +5,7 @@ export interface GalleryItem {
   src: string
   alt: string
   title: string
-  category?: 'tables' | 'chess' | 'boards' | 'jewelry' | 'accessories'
+  category?: 'bois&epoxy' | 'soudure&metal' | 'conception 3d' 
   categoryLabel?: string
   text?: string
   badge?: string
@@ -20,7 +20,7 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
   dark: true,
-  showFilters: true
+  showFilters: true,
 })
 
 const selectedCategory = ref<string>('all')
@@ -29,15 +29,30 @@ const activeIndex = ref<number | null>(null)
 const { locale } = useI18n()
 const localePath = useLocalePath()
 
+// Categories now match navigation menu, plus any extra IDs found in items
 const categories = computed(() => {
   const isEn = locale.value === 'en'
-  return [
+  // base categories (navigation menu)
+  const base = [
     { id: 'all', label: isEn ? 'All Works' : 'Toutes les créations' },
-    { id: 'tables', label: isEn ? 'Tables & Furniture' : 'Tables & Mobilier' },
-    { id: 'chess', label: isEn ? 'Chess & Games' : 'Jeux & Échecs' },
-    { id: 'boards', label: isEn ? 'Cutting Boards' : 'Planches à découper' },
-    { id: 'jewelry', label: isEn ? 'Jewelry & Accessories' : 'Bijoux & Accessoires' }
+    { id: 'wood&epoxy', label: isEn ? 'Wood & epoxy' : 'Bois & époxy' },
+    { id: 'soudure&metal', label: isEn ? 'Welding & metal' : 'Soudure & métal' },
+    { id: 'conception 3d', label: isEn ? '3D Design' : 'Conception 3D' },
   ]
+  // keep only base categories that actually have items (except 'all')
+  const filteredBase = base.filter(cat => cat.id === 'all' || props.items.some(item => item.category === cat.id))
+  // collect unknown categories from items
+  const extraIds = new Set<string>()
+  props.items.forEach(item => {
+    if (item.category && !filteredBase.some(b => b.id === item.category)) {
+      extraIds.add(item.category)
+    }
+  })
+  // add extra categories
+  extraIds.forEach(id => {
+    filteredBase.push({ id, label: id })
+  })
+  return filteredBase
 })
 
 const filteredItems = computed(() => {
@@ -118,11 +133,11 @@ onUnmounted(() => {
         v-for="cat in categories"
         :key="cat.id"
         @click="selectedCategory = cat.id"
-        class="group relative rounded-full px-5 py-2.5 text-xs font-medium uppercase tracking-[0.15em] transition-all duration-300"
+        class="group relative rounded-full px-4 py-1.5 text-xs font-semibold uppercase tracking-wide transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-breddy-bronze"
         :class="[
           selectedCategory === cat.id
-            ? 'bg-breddy-bronze text-white shadow-lg shadow-breddy-bronze/20'
-            : 'bg-white/5 text-white/70 hover:bg-white/10 hover:text-white border border-white/10'
+            ? 'bg-breddy-bronze text-white shadow-md'
+            : 'bg-transparent text-breddy-ivory/70 border border-breddy-bronze/30 hover:bg-breddy-bronze/10 hover:text-white'
         ]"
       >
         <span>{{ cat.label }}</span>
@@ -152,7 +167,7 @@ onUnmounted(() => {
             :alt="item.alt"
             class="h-full w-full object-cover brightness-[0.93] contrast-[1.06] saturate-[1.08] transition-all duration-700 ease-out group-hover:scale-105 group-hover:brightness-100"
             loading="lazy"
-          >
+          />
 
           <!-- Subtle Vignette & Gradient Overlays -->
           <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-90 transition-opacity duration-300 group-hover:opacity-75" />
@@ -220,11 +235,7 @@ onUnmounted(() => {
                 {{ activeIndex! + 1 }} / {{ filteredItems.length }}
               </span>
             </div>
-            <button
-              @click="closeLightbox"
-              class="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-white/5 text-white/80 transition hover:bg-white hover:text-black"
-              aria-label="Fermer"
-            >
+            <button @click="closeLightbox" class="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-white/5 text-white/80 transition hover:bg-white hover:text-black" aria-label="Fermer">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
               </svg>
@@ -234,11 +245,7 @@ onUnmounted(() => {
           <!-- Main Image Display Area -->
           <div class="relative flex flex-1 items-center justify-center py-4 my-auto overflow-hidden">
             <!-- Prev Button -->
-            <button
-              @click.stop="prevImage"
-              class="absolute left-2 md:left-6 z-20 flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-black/60 text-white backdrop-blur-md transition hover:scale-110 hover:border-breddy-bronze hover:bg-breddy-bronze"
-              aria-label="Image précédente"
-            >
+            <button @click.stop="prevImage" class="absolute left-2 md:left-6 z-20 flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-black/60 text-white backdrop-blur-md transition hover:scale-110 hover:border-breddy-bronze hover:bg-breddy-bronze" aria-label="Image précédente">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
               </svg>
@@ -250,15 +257,11 @@ onUnmounted(() => {
                 :src="useAssetPath(activeItem.src)"
                 :alt="activeItem.alt"
                 class="max-h-[75vh] w-auto max-w-[90vw] object-contain transition-all duration-300"
-              >
+              />
             </div>
 
             <!-- Next Button -->
-            <button
-              @click.stop="nextImage"
-              class="absolute right-2 md:right-6 z-20 flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-black/60 text-white backdrop-blur-md transition hover:scale-110 hover:border-breddy-bronze hover:bg-breddy-bronze"
-              aria-label="Image suivante"
-            >
+            <button @click.stop="nextImage" class="absolute right-2 md:right-6 z-20 flex h-12 w-12 items-center justify-center rounded-full border border-white/20 bg-black/60 text-white backdrop-blur-md transition hover:scale-110 hover:border-breddy-bronze hover:bg-breddy-bronze" aria-label="Image suivante">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
               </svg>
@@ -276,11 +279,7 @@ onUnmounted(() => {
               </h4>
             </div>
             <div class="mt-4 md:mt-0">
-              <NuxtLink
-                :to="localePath('/contact')"
-                @click="closeLightbox"
-                class="inline-flex items-center gap-2 rounded-none border border-breddy-bronze bg-breddy-bronze/20 px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-breddy-bronze"
-              >
+              <NuxtLink :to="localePath('/contact')" @click="closeLightbox" class="inline-flex items-center gap-2 rounded-none border border-breddy-bronze bg-breddy-bronze/20 px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-breddy-bronze">
                 <span>Demander une pièce similaire</span>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -293,4 +292,3 @@ onUnmounted(() => {
     </Teleport>
   </div>
 </template>
-

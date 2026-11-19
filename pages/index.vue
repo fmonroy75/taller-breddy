@@ -53,7 +53,7 @@ const services = [
       :eyebrow="t('home.hero.eyebrow')"
       :title="t('home.hero.title')"
       :description="t('home.hero.description')"
-      image="/images/bois-epoxy/hero/portada.png"
+      image="/images/accueil/portada.png"
       :image-alt="t('home.hero.imageAlt')"
     />
 
@@ -98,9 +98,30 @@ const services = [
         <div class="mt-14">
           <GalleryGrid
             :items="[
-              { src: '/images/accueil/realisation-table.PNG', alt: t('home.gallery.tableAlt'), title: t('home.gallery.tableTitle'), text: t('home.gallery.tableText'), span: 'large' },
-              { src: '/images/accueil/realisation-jeu.PNG', alt: t('home.gallery.chessAlt'), title: t('home.gallery.chessTitle'), text: t('home.gallery.chessText') },
-              { src: '/images/bois-epoxy/galerie/ajedrez2.PNG', alt: t('home.gallery.detailAlt'), title: t('home.gallery.detailTitle'), text: t('home.gallery.detailText') }
+              { src: '/images/soudure-metal/galerie/IMG_3133.JPEG', alt: t('home.gallery.metalAlt'), title: t('home.gallery.metalTitle'), text: t('home.gallery.metalText'), category: 'soudure&metal' },
+              { src: '/images/bois-epoxy/galerie/mesa.PNG', alt: t('home.gallery.tableAlt'), title: t('home.gallery.tableTitle'), text: t('home.gallery.tableText'), category: 'wood&epoxy' },
+              { src: '/images/bois-epoxy/galerie/IMG_2186.JPEG', alt: t('home.gallery.chessAlt'), title: t('home.gallery.chessTitle'), text: t('home.gallery.chessText'), category: 'wood&epoxy' },
+              { src: '/images/bois-epoxy/galerie/IMG_4034.JPEG', alt: t('home.gallery.epoxyAlt'), title: t('home.gallery.epoxyTitle'), text: t('home.gallery.epoxyText'), category: 'wood&epoxy' },
+              { src: '/images/bois-epoxy/galerie/IMG_2222.JPEG', alt: t('home.gallery.tableAlt'), title: t('home.gallery.tableTitle'), text: t('home.gallery.tableText'), category: 'wood&epoxy' },
+              { src: '/images/bois-epoxy/galerie/IMG_2547.JPEG', alt: t('home.gallery.epoxyAlt'), title: t('home.gallery.epoxyTitle'), text: t('home.gallery.epoxyText'), category: 'wood&epoxy' },              
+              { src: '/images/bois-epoxy/galerie/IMG_3290.JPEG', alt: t('home.gallery.epoxyAlt'), title: t('home.gallery.epoxyTitle'), text: t('home.gallery.epoxyText'), category: 'wood&epoxy' },                 
+              { src: '/images/bois-epoxy/galerie/IMG_3293.JPEG', alt: t('home.gallery.epoxyAlt'), title: t('home.gallery.epoxyTitle'), text: t('home.gallery.epoxyText'), category: 'wood&epoxy' },   
+              { src: '/images/bois-epoxy/galerie/IMG_3610.JPEG', alt: t('home.gallery.epoxyAlt'), title: t('home.gallery.epoxyTitle'), text: t('home.gallery.epoxyText'), category: 'wood&epoxy' },
+              { src: '/images/bois-epoxy/galerie/IMG_3622.JPEG', alt: t('home.gallery.epoxyAlt'), title: t('home.gallery.epoxyTitle'), text: t('home.gallery.epoxyText'), category: 'wood&epoxy' },
+              { src: '/images/bois-epoxy/galerie/IMG_3625.JPEG', alt: t('home.gallery.epoxyAlt'), title: t('home.gallery.epoxyTitle'), text: t('home.gallery.epoxyText'), category: 'wood&epoxy' },
+              { src: '/images/bois-epoxy/galerie/IMG_3701.JPEG', alt: t('home.gallery.epoxyAlt'), title: t('home.gallery.epoxyTitle'), text: t('home.gallery.epoxyText'), category: 'wood&epoxy' },
+              { src: '/images/bois-epoxy/galerie/IMG_5025.png', alt: t('home.gallery.epoxyAlt'), title: t('home.gallery.epoxyTitle'), text: t('home.gallery.epoxyText'),span: 'large' },
+              { src: '/images/conception-3d/galerie/IMG_3681.JPEG', alt: t('home.gallery.3dAlt'), title: t('home.gallery.3dTitle'), text: t('home.gallery.3dText'), category: 'conception 3d' },
+              { src: '/images/conception-3d/galerie/IMG_3668.JPEG', alt: t('home.gallery.3dAlt'), title: t('home.gallery.3dTitle'), text: t('home.gallery.3dText'), category: 'conception 3d' },
+
+              { src: '/images/bois-epoxy/galerie/IMG_0770.png', alt: t('home.gallery.epoxyAlt'), title: t('home.gallery.epoxyTitle'), text: t('home.gallery.epoxyText'), category: 'wood&epoxy' },
+              { src: '/images/bois-epoxy/galerie/IMG_3642.JPEG', alt: t('home.gallery.epoxyAlt'), title: t('home.gallery.epoxyTitle'), text: t('home.gallery.epoxyText'), category: 'wood&epoxy' }
+
+
+
+ //             { src: '/images/accueil/realisation-table.PNG', alt: t('home.gallery.tableAlt'), title: t('home.gallery.tableTitle'), text: t('home.gallery.tableText'), span: 'large' },
+ //             { src: '/images/accueil/realisation-jeu.PNG', alt: t('home.gallery.chessAlt'), title: t('home.gallery.chessTitle'), text: t('home.gallery.chessText') },
+ //             { src: '/images/bois-epoxy/galerie/ajedrez2.PNG', alt: t('home.gallery.detailAlt'), title: t('home.gallery.detailTitle'), text: t('home.gallery.detailText') }
             ]"
           />
         </div>
